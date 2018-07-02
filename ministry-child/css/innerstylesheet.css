@@ -1,0 +1,330 @@
+/* @override 
+	http://indbiz-the-practice.in/staging/wp-content/themes/ministry-child/css/innerstylesheet.css?ver=3.3.6 */
+
+/* override 
+	http://indbiz-the-practice.in/staging/wp-content/themes/ministry-child/css/innerstylesheet.css?ver=3.3.6 */
+
+@charset "utf-8";
+/*!
+ * Start Bootstrap - Creative v3.3.7+1 (http://startbootstrap.com/template-overviews/creative)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+body {
+    /*font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;*/
+    
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    color: #000;
+}
+a {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    color: #fff;
+}
+a:hover {
+    text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+a.logo {} a.logo img {
+    max-width: 100%;
+}
+.bgNavInner {
+    height: 100px;
+    background-color: none;
+    border: none;
+}
+.marT38 {
+    margin-top: 38px;
+}
+.marT90 {
+    margin-top: 90px;
+}
+.imgWidth {
+    width: 24px;
+}
+ul.customMenuBlack li a {
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #000 !important;
+    font-weight: 600;
+}
+.marT13p {
+    margin-top: 13%;
+}
+.mainHeadingBox {
+    text-align: center;
+}
+.mainHeadingBox h1.mainHeading {
+    font-size: 55px;
+    color: #000;
+    font-weight: 700;
+    margin-bottom: 35px;
+}
+.mainHeadingBox p.mainPara {
+    font-size: 18px;
+    color: #000;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.mainHeadingBox p.mainDate {
+    color: #545252;
+	margin-bottom: 20px;
+
+}
+.topmainBox {
+    margin: 20px 0px 40px;
+}
+.borderDarkBlue {
+    padding: 25px;
+    font-size: 15px;
+    color: #000;
+    box-shadow: 0px 0px 0px 2px #5c2d91 inset;
+    border: 10px solid transparent;
+}
+.borderBlue {
+    padding: 25px;
+    font-size: 15px;
+    color: #000;
+    box-shadow: 0px 0px 0px 2px #034ea2 inset;
+    border: 10px solid transparent;
+}
+.borderlightBlue {
+    padding: 25px;
+    font-size: 15px;
+    color: #000;
+    box-shadow: 0px 0px 0px 2px #0089cf inset;
+    border: 10px solid transparent;
+}
+.borderPinkBlue {
+    padding: 25px;
+    font-size: 15px;
+    color: #000;
+    box-shadow: 0px 0px 0px 2px #cf128c inset;
+    border: 10px solid transparent;
+}
+.divRelative {
+    /*position:relative; z-index:0;*/
+}
+.divRelative .divAbsolute {
+    position: relative;
+    background-color: #fff;
+    width: 90%;
+    margin: 0px auto 0px auto;
+    padding: 0px 45px;
+    max-width: 900px;
+}
+.divRelative .divAbsolute::before {
+    position: absolute;
+    content: '';
+    top: -90px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: #fff;
+    z-index: 0;
+}
+.zIndex {
+    position: relative;
+    z-index: -1;
+}
+.divRelative .divAbsolute p {
+    font-size: 16px;
+    color: #454444;
+    margin-bottom: 10px;
+}
+.divRelative .divAbsolute h2 {
+    font-size: 40px;
+    color: #000;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.divRelative .divAbsolute h2:after {
+    height: 10px;
+    width: 100px;
+    margin: 30px auto 0px auto;
+    display: block;
+    background-color: #5c2d91;
+    content: '';
+}
+.greyBox {
+    background-color: #f2f2f2;
+    padding: 25px;
+    margin: 30px 0px;
+}
+.greyBox p {
+    text-align: center;
+    font-style: italic;
+    font-size: 12px;
+    color: #313131;
+}
+.greyBox p img {
+    text-align: center
+}
+.marTB15 {
+    margin: 15px 0;
+}
+.linkBox {
+    text-align: center;
+    margin: 50px 0px;
+    position: relative
+}
+.linkBox a {
+    padding: 3px 15px;
+    color: #333;
+    border: 1px solid #333;
+    font-size: 15px;
+    margin: 5px;
+    display: inline-block;
+}
+.linkBox > .socailLink a {
+    border: none;
+}
+.linkBox .socailLink {
+    position: absolute;
+    top: -50px;
+    right: -30px;
+}
+.linkBox .socailLink a {} .bgHalfWhite {
+    background-color: #f2f2f2;
+    padding: 45px 0px 0px;
+}
+.bgHalfWhite .investFooter {
+    background-color: #cc4b48;
+    padding: 25px;
+}
+.bgHalfWhite .investFooter h5 {
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.bgHalfWhite .investFooter a {
+    color: #fff;
+    font-size: 15px;
+    margin-bottom: 21px;
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+}
+.bgHalfWhite .investFooter a:hover {
+    text-decoration: underline;
+}
+.bgHalfWhite .tradeFooter {
+    background-color: #fcaf32;
+    padding: 25px 25px 63px 25px;
+}
+.bgHalfWhite .tradeFooter h5 {
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.bgHalfWhite .tradeFooter a {
+    color: #fff;
+    font-size: 15px;
+    margin-bottom: 22px;
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+}
+.bgHalfWhite .tradeFooter a:hover {
+    text-decoration: underline;
+}
+.bgHalfWhite .stayConnectFooter {
+    padding: 15px;
+}
+.bgHalfWhite .stayConnectFooter .socialIcon {
+    text-align: right;
+    margin-bottom: 15px;
+}
+.bgHalfWhite .stayConnectFooter .socialIcon a {} .bgHalfWhite .stayConnectFooter .socialIcon a img {
+    width: 45px;
+    height: 45px;
+}
+.bgWhiteFooter {
+    background-color: #fff;
+    padding: 20px;
+}
+.bgWhiteFooter h6 {
+    color: #585858;
+    font-size: 39px;
+    margin-bottom: 15px;
+}
+.bgWhiteFooter p {
+    color: #585858;
+    font-size: 14px;
+    margin-bottom: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+.bgWhiteFooter input {
+    color: #585858;
+    padding: 4px;
+    font-size: 13px;
+    margin-bottom: 14px;
+    background-color: #f2f2f2;
+    border: none;
+    height: 40px;
+    width: 100%;
+    margin-top: 10px;
+}
+.padL0 {
+    padding-left: 0px;
+}
+.footerPic img {
+    width: 95%;
+}
+.footerLinks {
+    margin-top: 25px;
+}
+.footerLinks h6 {
+    color: #000;
+    font-size: 18px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+}
+.footerLinks a {
+    color: #000;
+    font-size: 15px;
+    margin-bottom: 9px;
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+}
+.policyLinkFooter {
+    /*font-weight: 600*/
+    
+    ;
+    color: #000;
+    font-size: 15px;
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 25px 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+.policyLinkFooter a {
+    color: #000;
+    font-size: 15px;
+}
+.policyLinkFooter a:hover {
+    text-decoration: underline
+}

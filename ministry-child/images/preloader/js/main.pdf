@@ -1,0 +1,90 @@
+(function() {
+    // Global variables defined beloe
+    var locales = ['images/image1.jpg', 'images/image2.jpg', 'images/image3.jpg', 'images/image4.jpg', 'images/image5.jpg', 'images/image6.jpg', 'images/image7.jpg', 'images/image8.jpg', 'images/image9.jpg', 'images/image10.jpg', 'images/image11.jpg', 'images/image12.jpg'],
+        steps = locales.length, // numbers of images to be included in animation
+        animationDuration = 1000, // time in miliseconds
+        redirectisOn = true, // set false to stop redirecting.
+        redirectURL = 'http://indbiz-the-practice.in/staging/'
+
+    /**
+    * Redirect
+    * @function redirectToLanding
+    */
+    function redirectToLanding() {
+        if (redirectisOn) {
+            window.location.href = redirectURL;
+        }
+    }
+
+    /**
+    * Animate images
+    * @function animator
+    */
+    function animator() {
+        var prev = 0,
+            current = 0,
+            images = document.querySelectorAll('.loaderimg');
+
+        if (locales.length) {
+
+            // show first item
+            images[prev].className += ' active';
+            current = prev + 1; // next image
+
+            // animate rest of the items after desired sec interval
+            var aniTimer = window.setInterval(function() {
+
+                // hide previous image
+                images[prev].className = 'loaderimg';
+                // animate next images
+                images[current].className += ' active';
+
+                // navigate after animation is done
+                if (current == locales.length - 1) {
+                    clearInterval(aniTimer);
+                    redirectToLanding();
+                }
+
+                prev = current;
+                current = prev + 1;
+
+            }, animationDuration);
+
+        }
+    };
+
+    /**
+    * Get random images from the locales list
+    * @function init
+    */
+    function init() {
+        var loadWrapper = document.querySelector('.loader-wrapper'),
+            loaded = 0;
+
+        document.body.onclick = redirectToLanding;
+
+
+        // iterate over filtered image array
+        locales.forEach(function(item, index) {
+            var img = new Image();
+                img.src = item;
+                img.setAttribute('class', 'loaderimg');
+
+                img.onload = function() {
+                    loadWrapper.appendChild(img);
+                    loaded++;
+
+                    // play
+                    if (loaded === steps) {
+                        window.setTimeout(function() {
+                            animator();
+                        }, 100);
+                    }
+                }
+        });
+    };
+
+    // caller
+    init();
+
+})();

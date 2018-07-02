@@ -1,0 +1,376 @@
+/*
+** New Responsive CSS Start By 9th Oct 2017
+*/
+
+@media only screen and (max-width:767px){
+	body{overflow-x:hidden;}
+	
+	.btnPart div.spotlight{padding: 10px 15px;}
+	div.btnPart .invertBtn, div.btnPart .tradeBtn, .btnPart .spotlight{padding: 10px 15px;line-height: 45px;}
+	div.btnPart .invertBtn img, div.btnPart .tradeBtn img{margin: 6px;}
+	#myCarousel .item, .carousel{min-height: 100vh !important;}
+	.productBox .top_box p a{color:#fff !important;}
+	.hp_events_block.full-event-bg{padding: 20px 0 0 !important;}
+	.vc_custom_1504838781187{background-size: 100%;}
+	.hub_text .hub_text{min-height: 250px;}
+	div.news_section, div.productBox {margin-bottom: 10px;}
+	.whiteBox.box-content{background: #f2f1ec;}
+	.tradeBox{padding: 20px 35px 10px 35px;}
+	.wpb_button, .wpb_content_element, ul.wpb_thumbnails-fluid > li {margin-bottom: 25px;}
+	.hp_events_block .col-sm-3:nth-child(3),
+	.hp_events_block .col-sm-3:nth-child(4){display:none;}
+	.vc_custom_1505255343715.invest_bussiness{margin-right: 0 !important;margin-left: 0 !important;padding-left: 30px !important;
+padding-right: 30px !important;}
+	.vc_custom_1505255343715.invest_bussiness > div > .vc_column-inner{padding-left: 40px !important;padding-right: 40px !important;	padding-top: 25px !important;
+	margin-top: -30px;}
+	.vc_custom_1507191848176 .vc_custom_1507191734899{padding-top: 40px !important; padding-bottom: 0px !important;}
+	.vc_custom_1507191848176 .vc_custom_1507364608501{margin: 30px 0 30px;}
+	.india-environment-row .post_slider{height: 70vh;}
+	
+	.tp-parallax-wrap{top: 10% !important;left: 5% !important;}
+	.sector-lists ul li{width: 48%;margin: 0 1% 2% 1%;}
+	.vc_custom_1505056017071.invest_bussiness{margin-right: 0 !important;margin-left: 0 !important;padding-left: 30px !important;
+padding-right: 30px !important;}
+.vc_custom_1505056017071.invest_bussiness > div > .vc_column-inner{padding-left: 40px !important;padding-right: 40px !important;	padding-top: 25px !important;
+	margin-top: -30px;}
+	.invests_wrapper{margin: 0px auto 0;}
+	.invest_opprtunity .opNews-list ul li{width: 100%;margin: 0 0 20px;}
+	.invest_opprtunity .opNews-list ul li .opNews-img{width: 50%;}
+	.invest_opprtunity .opNews-list ul li .opNews-details{width: 50%;padding: 16px 30px;}
+	.invest_opprtunity .opNews-list ul li:nth-child(2) .opNews-img{float:right;}
+	.invest_opprtunity .opNews-list ul li:nth-child(2) .opNews-details{float:left;}
+	.invest_investor .vc_col-sm-8 .col-sm-6{width:100%;padding: 2% 4%;}
+	.invest_investor .vc_col-sm-8 .date_category .date:empty{margin:0;}
+	.invest_investor .vc_col-sm-8 .col-sm-6 h5{font-size: 22px !important;text-align: left;padding: 0 20px;}
+	.invest_stories .ssNews-list ul li,
+	.row .ssNews-list ul li{width: 70%;margin: 0 0 50px;}
+	.invest_stories .ssNews-list ul li .ssNews-img img,
+	.row .ssNews-list ul li .ssNews-img img{height: 230px;}
+	.vc_custom_1504435005021.invest_bussiness{margin-right: 0 !important;margin-left: 0 !important;padding-left: 30px !important;
+padding-right: 30px !important;}
+.vc_custom_1504435005021.invest_bussiness > div > .vc_column-inner{padding-left: 40px !important;padding-right: 40px !important;	padding-top: 25px !important;
+	margin-top: -30px;}
+	.dashbboardBox .sector-lists ul li{width: 48%;margin: 0 1% 2% 1%;}
+	.featured-news .container{width:100%;}
+	.main-content.sector-details{padding: 30px 0px;}
+	.main-content.sector-details .sdetails-left{width: 100%;margin: 0 0 30px;}
+	.main-content.sector-details .sdetails-right{width: 100%;}
+	.sector-gallery .photoLists-slider .photo-slider .owl-item{height: auto;}
+	.sector-gallery .photoLists-slider .photo-slider .owl-item a{width: 100%;}
+	.sector-gallery .photoLists-slider .owl-thumbs{display:none;}
+	.sector-gallery .photoLists-slider .owl-nav .owl-prev{left: 0;bottom: 10%;}
+	.sector-gallery .photoLists-slider .owl-nav .owl-next{right: 0;bottom: 10%;}
+	.sector-gallery .photoLists-slider .photo-slider .owl-item .active-text{width: 100%;padding: 30px;}
+	.secYt-videos .tradeAgree-videos ul li{width: 100%;margin: 0 0 20px;}
+	.secNews-lists ul li{width: 100% !important;margin: 0 0 3% !important;}
+	
+	.wide-world,
+	.wide-world a{font-size: 35px !important;line-height: 40px !important;}
+	.wide-opp{font-size: 22px !important;line-height: 30px !important;word-break: break-all;}
+	.rev_slider .slider-caption1{margin-top:30px !important;}
+	.rev_slider .slider-caption2{margin-top:80px !important;}
+	
+	body.header2 .featured-news.trade-infoBg, body.header2 .featured-news,
+	.page-id-24 .featured-news{height: 240px !important;margin: 120px 0 0 !important;min-height: 240px !important;}
+	.featured-news.trade-infoBg .container .row{height:100% !important;}
+	
+	body.page-id-26 .publication-heading, body.page-id-721 .page-heading{min-height: 240px !important;}
+	body.page-id-24 .featured-news .container .row,
+	body.page-id-721 .page-heading .container .row,
+	body.page-id-26 .publication-heading .container .row{vertical-align: bottom !important;}
+	
+	.trade .page-top-heading.bannerheading .heading_trade{line-height: 50px;}
+	.invest_guide.trade_indbiz_help .tradeBox{min-height: auto;text-align:left;}
+	.invest_guide.trade_indbiz_help .tradeBox h3{min-height: auto;}
+	
+	.invest_investor .vc_col-sm-4 .wpb_content_element{float:left;width:50%;height: 320px;margin-bottom:0;}
+	.invest_investor .vc_col-sm-4 .wpb_wrapper,
+	.invest_investor .wpb_single_image .vc_single_image-wrapper,
+	.invest_investor .wpb_single_image .vc_single_image-wrapper img{height:100%;}
+	.invest_investor .vc_col-sm-8 .col-sm-6 {margin: 15px 0 !important;}
+	
+	.invest .heading_invest{margin: 20px 0px 15px 0px !important;}
+	
+	.row .opNews-list ul li{width:100%;margin: 0 0 30px;}
+	.row .opNews-list ul li .opNews-img{width:50%;}
+	.row .opNews-list ul li .opNews-details{width:50%;padding: 20px 30px;text-align:left;}
+	.row .opNews-list ul li:nth-child(2n) .opNews-img{float:right;}
+	.row .opNews-list ul li:nth-child(2n) .opNews-details{float:left;}
+	
+	.row .inUpdate-list ul li{width:100%;}
+	
+	.row .intNetwork .intn-left{width:100%;margin:0 0 20px;}
+	.row .intNetwork .intn-right{width:100%;}
+	
+	.intNetwork .intn-right .int-sites{background: #fff;margin: 20px 0 0;}
+	.row .trade-info .tinfo-right h5.sec-title{margin:10px 0 0;}
+	.row .intn-right .int-sites ul{padding: 10px 15px;margin: 0 0 30px;}
+	.row .intn-right .int-sites ul li{width: 100%;margin:6px 0;}
+	.row .intn-left ul.sub-pages li.active{background-position: 92% 16px;}
+	
+	.vc_custom_1505846768167{padding: 10px 15px !important;}
+	.row .tinfo-right .step-lists ul li{width:100%;margin: 0 0 20px;}
+	.row .step-lists ul li .step-desc{min-height:auto;padding: 15px 20px;}
+	.row .tinfo-right .step-lists ul li h4{padding: 14px 50px 14px 20px;}
+	.row .tinfo-right .step-lists ul li h4 br{display:none;}
+	
+	.row .buyIndia-content a.readMore{padding: 5px 15px;}
+	
+	.wpb_wrapper .keyEvent-box{min-height:auto;text-align:center;}
+	
+	.col-md-12{padding:0;}
+	.wpb_button, .wpb_content_element, ul.wpb_thumbnails-fluid > li{margin-bottom:25px !important;}
+	.mB50{margin-bottom: 30px !important;}
+	input.alertinput, input.alertinput:focus{width: 60%;}
+	.wpb_wrapper .event_filter{text-align:center;}
+	.wpb_wrapper .event_filter form.eventS-form .search-field{display:inline-block;width:85%;float:none;}
+	.wpb_wrapper .event_filter form.eventS-form .search-field:nth-child(2), 
+	.wpb_wrapper .event_filter form.eventS-form .search-field:nth-child(5){margin:6px 0}
+	.sector-bg .container .row{width:100%;}
+	.sector-bg .news_p_head{margin-left: 5%;}
+	.trade .page-top-heading.bannerheading .sub_heading{margin-left: 3%;}
+	
+	.row .evData-page{padding: 30px 0;}
+	.row .evData-page .evdetail-left{width: 100%;margin: 0 0 20px;text-align:center;}
+	.row .evData-page .evdetail-right{width: 100%;}
+	.row .evData-page .evdetail-right .event-content{width:80%;margin:0 auto;float:none;text-align:left;}
+	.wpb_wrapper .vc_custom_1505047720846{padding-right: 0 !important;padding-left: 0 !important;}
+	.vc_row .vc_column_container > .vc_column-inner{padding-left: 0;padding-right: 0;text-align:center;}
+	.wpb_wrapper .news_filter form.nSearch-form .search-field{width: 100%;margin: 6px 0;}
+	.wpb_wrapper .news_filter form.nSearch-form .search-field:nth-child(2){margin: 6px 0;}
+	.heading_india h2{font-size: 50px !important;}
+	.wpb_wrapper .publication-four-blocks h3{font-size: 20px;}
+	.india-at-glance ul li{text-align:left;}
+	.vc_custom_1504950856860 .tradeBox.shadow{text-align: left;margin: 0 auto;width: 100%;min-height:auto;padding-bottom:20px;}
+	
+	.featured-news .container .row{vertical-align: middle !important;}
+	.featured-news .news_p_head{font-size: 3.5em;margin: 0 0 0 13px;}
+	.featured-news .banner_date{margin-left:13px;}
+	
+	div.news_filter{text-align: center;}
+	.row .news_filter form.nSearch-form .search-field{width: 100%;margin: 6px 0;}
+	.row .news_filter form.nSearch-form .search-field:nth-child(2){margin: 6px 0;}
+	.row .latNews-lists ul{text-align:center;}
+	.row .latNews-lists ul li{width:90%;margin:0 auto 2%;display:inline-block;float:none;text-align:left;}
+	.inbNews-sec .inbound-news{padding: 0;}
+	.news_block_custom .padAll.bgWhite{float:left;width:50%;min-height: 157px !important;}
+	.news_block_custom .pic{float:left;width:50%;min-height: 157px !important;}
+	.divAbsolute .tag-lists a{font-size: 16px;line-height: 20px;}
+	
+	.row .share_links{top: -200px;}
+	.row .linkBox > .socailLink > .share_links a{width: 38px;height: 38px;padding: 8px;}
+	
+	.row .linkBox{right: 1%;}
+	.row .related-post{margin: 40px 0;}
+	.row .related-post .relPost-inner{width: 82%;}
+	.row .related-post .box{width: 48%;margin-bottom: 2%;}
+	
+	.row .trade-info{padding: 30px 0;}
+	.row .trade-info .tinfo-left{width:100%;margin: 0 0 20px;}
+	.row .tinfo-left ul{text-align:center;}
+	.row .trade-info .tinfo-right{width: 100%;}
+	.row .trade-info .tinfo-right .page-info{padding: 8px 10px 8px 10px;text-align:left;}
+	.row .trade-info .tinfo-right .page-info .wpb_text_column{text-align:left;}
+	.row .vc_custom_1507538231116{text-align: left;}
+	.row .trade-info .tinfo-right .page-info .vc_row{margin:0;}
+	.row .trade-info .tinfo-right .page-info .vc_row p{text-align:left;}
+	.row .tinfo-left ul li ul.pGuide-list li a{width:100%;}
+	
+	.footerLinks:nth-child(2n+1){clear:left;}
+	
+	.row .vc_custom_1504951758859{padding-top: 0px !important;padding-bottom: 10px !important;}
+	.vc_custom_1506534224630 .heading_trade_half{padding: 22px 0 0 !important;margin: 0px 0px 20px 0px !important;}
+	.main-content{padding-bottom: 15px !important;}
+	
+	.row .otbNews-sec ul li .otNews-left{width: 50%;padding: 0 10px 10px;}
+	.row .otbNews-sec ul li .otNews-right{width: 50%;}
+	.row .otbNews-sec ul li .otNews-left .otNews-desc{font-size: 20px;line-height: 25px;}
+	.row .otbNews-sec ul li .otNews-right img{height: 230px;}
+	.row .otbNews-sec ul li .otNews-left .readMore{margin: 20px 0 0;}
+	.row .otbNews-sec ul li .otNews-left .readMore a{min-width: 100px;padding: 7px 20px 7px 20px !important;}
+	.row .inbNews-sec .btnBox a.customBtn, .row .otbNews-sec .btnBox a.customBtn {margin: 30px 0 0;}
+	
+	.home .productBox .grossProduct .greyBox{padding: 25px 0px 25px 25px;min-height: 170px !important;}
+	.productBox .grossProduct .greyBox .value{font-size: 70px;}
+	#gdpgrowth, #economygrowth, #gdppie, #gdpfiscal, #topimportcountries, #topexportcountries, #toptradecountries, 
+	#indiantraderegion, #indianforeignexchange, #fdiequityinflows, #fdihighestinflows, 
+	#fdicumulativeinflows, #businessranking, #startbusinessranking, #gettingelectricity, #protectingminority, #averageage{height: 250px;}
+	
+	.vc_custom_1507752944949.invest_bussiness{margin-right: 0 !important;margin-left: 0 !important;padding-left: 30px !important;
+padding-right: 30px !important;}
+	.vc_custom_1507752944949.invest_bussiness > div > .vc_column-inner{padding-left: 40px !important;padding-right: 40px !important;	padding-top: 25px !important;
+	margin-top: -30px;}
+	
+	.vc_custom_1505243286776.invest_bussiness{margin-right: 0 !important;margin-left: 0 !important;padding-left: 30px !important;
+padding-right: 30px !important;}
+	.vc_custom_1505243286776.invest_bussiness > div > .vc_column-inner{padding-left: 40px !important;padding-right: 40px !important;	padding-top: 25px !important;
+	margin-top: -30px;}
+	
+	.home div.tradeBox{text-align:left;}
+	.vc_custom_1507752251822{margin: 20px 0 0;}
+	.vc_custom_1507752262285{margin:40px 0 0 !important;padding: 0 15px;}
+	.vc_custom_1507752269357{margin:40px 0 20px !important;}
+	.subheading_row_india_states .dash_sub{padding:0 15px;}
+	
+	.invest_investor .vc_col-sm-4 .wpb_wrapper{padding: 0 0 0 10px;}
+	
+	.row .sector-lists ul li{width: 48%;margin:0 1% 2% 1%;}
+	
+	.row .secNews-lists::before{width:100%;}
+	.row .secNews-lists ul li .secNews-desc{float:left;width:50%;}
+	.row .secNews-lists ul li:nth-child(2n) .secNews-desc{float:right;}
+	.row .secNews-lists ul li .secNews-date{display:none;}
+	.row .secNews-lists ul li .secNews-img{width:50%;}
+	
+	.page-id-1896 .mainHeadingBox{padding: 0 15px;}
+	.row .vc_custom_1505253994912{padding: 0 15px;}
+	.news_section .vc_custom_1506543913996 h2.heading_trade_half{padding:0;margin:30px 0 10px;}
+	.row .photoLists-slider .photo-slider .owl-item .active-text{padding: 16px 15px;}
+	.row .photoLists-slider .photo-slider .owl-item .active-text h3{font-size: 30px;line-height: 33px;margin: 0 0 10px;display:inline-block;width:85%;text-align:left;}
+	.row .photoLists-slider .photo-slider .owl-item .active-text p{font-size: 13px;line-height: 16px;display:inline-block;width:85%;text-align:left;}
+	
+	.row .secYt-videos .owl-nav {display:block;}
+	.row .photoLists-slider .owl-nav .owl-prev{left: 10px;bottom: 70%;}
+	.row .photoLists-slider .owl-nav .owl-next{right: 10px;bottom: 70%;}
+	.row .invest_opprtunity .heading_invest{padding: 0 15px;}
+	.page-id-1896 div.mainHeadingBox h1.mainHeading{margin: 80px 0 10px;}
+	
+	.row .tradeAgree-videos ul li a::before{width: 60px;height: 70px;}
+	.row .secYt-videos .owl-nav {display:block;}
+	.row .secYt-videos .owl-nav .owl-prev{left: 10px;bottom: 60%;}
+	.row .secYt-videos .owl-nav .owl-next{right: 10px;bottom: 60%;}
+	.row .secYt-videos .tradeAgree-videos ul li{text-align: center;}
+	.row .tradeAgree-videos ul li p{display: inline-block;float: none;width: 85%;text-align: left;}
+	
+	.row .photoLists-slider .photo-slider .owl-item{height:auto;}
+	.row .photoLists-slider .photo-slider .owl-item a{width:100%;}
+	.row .photoLists-slider .photo-slider .owl-item .active-text{width:100%;text-align: center;}
+	.row .photoLists-slider .owl-thumbs{display:none;}
+	
+	.vc_row{margin: 0 !important;}
+	.vc_custom_1504945982156{background-color: #f2f1ec;}
+	
+	.row .home_box_wrap.wpb_row .vc_row .vc_column_container > .vc_column-inner{text-align:left;}
+	.row .home_box_wrap.wpb_row .vc_col-sm-2{width: 47.8%;margin: 0 3% 15px 0;}
+	.row .home_box_wrap.wpb_row .vc_col-sm-2:nth-child(2n){margin-right: 0;}
+	.row .home_box_wrap.wpb_row .vc_col-sm-2:nth-child(2n+1){clear:left;}
+	
+	.row .whyregister{float: left;width:50%;}
+	.row .whyregister.vc_column_container > .vc_column-inner{height: 220px;text-align: left;}
+	
+	.row .sinfo-list ul{width:100%;}
+	.row .sinfo-list img{float: none;margin: 10px auto 0;max-width: 100%;width: auto;display: block;}
+	
+	.show-hide ul{text-align:left;}
+	.row .country-lists{width:100%;    padding: 15px 0;}
+	.row .country-lists ul li{width:100%;margin: 0 0 15px;}
+	.row .trade-info .tinfo-right .cdetails h5.sec-title{width: 75%;}
+	.row .mouDoc-lists.cpdf-lists{padding: 30px 20px 20px;}
+	.row .cpdf-lists ul li{width: 100%;margin-right: 0;    padding: 15px;}
+	.row .publication_ii_left{width: 20%;margin-right: 4%;}
+	.row .publication_ii_right{width: 50%;text-align: left;}
+	.row .publication_ii_new{float:right;margin-left:0;}
+	.row .publication_iii{margin-top: 30px;}
+	
+	header .customBrc{margin: 0;padding: 0 5px 0px 16px;}
+	.featStart-lists ul.featured-startup li{height: 400px;}
+	.featStart-lists ul.featured-startup li .featS-desc .featS-inner{padding: 0 30px 0 20px;}
+	.featStart-lists ul.featured-startup li .featS-desc h3.feat-titile{font-size: 22px;line-height: 26px;margin: 0 0 10px;}
+	
+	body .navbar-toggle{margin-top:0;}  
+    body .content-wrapper{padding: 70px 0 1px 0;}
+    body.page-id-26 .content-wrapper{padding: 0;}
+	
+	body .india-environment-row .owl-next,
+	body .india-environment-row .owl-prev{top: 35%;}
+	
+	.publication-four-blocks .vc_column_container .vc_column-inner {padding:0 !important;}
+	.publication-four-blocks .vc_column_container .vc_column-inner:last-child{padding:0 0 20px !important;}
+	.publication-four-blocks .vc_column_container .vc_column-inner .wpb_text_column{margin:0 !important;}
+	body .publication-four-blocks .tradeBox{padding: 30px 0;}
+	body:not(.home) div#main-menu ul li>a{display:inline-block;}
+	body .india-environment-row .post_slider_inner{top: 32%;bottom: auto;text-align:center;left: 0 !important;
+    width: 100%;max-width: 100%;}
+	body .india-environment-row .post_slider_inner a{display:inline-block;float: none;margin: 10px 0;max-width: 100%;padding: 0 20px;}
+	body #menu-item-243 a{display:none !important;}
+	
+	body .otbNews-sec ul .owl-nav .owl-prev{left: 5px;width: 30px;    height: 50px;}
+	body .otbNews-sec ul .owl-nav .owl-next{right: 5px;width: 30px;    height: 50px;}
+}
+
+@media only screen and (max-width:520px){
+	body .spotlight img.flag_img{width: 65px;}
+	.rev_slider .slider-caption2 .wide-opp br{display:block;}
+	.rev_slider .slider-caption1{margin-top:30px !important;}
+	.rev_slider .slider-caption2{margin-top:110px !important;}
+	.countries > a > span.country{font-size: 35px !important;}
+	div.btnPart .invertBtn, div.btnPart .tradeBtn, .btnPart .spotlight{padding: 6px 10px !important;line-height: 35px !important;}
+	div.btnPart .invertBtn img, div.btnPart .tradeBtn img {margin: 6px !important;width: 25px !important;}
+	.bgOrange .wpb_wrapper p{font-size: 20px;}
+	.hub_text .hub_text{min-height: 200px;}
+	.tradeBox{padding: 15px 35px 5px 35px;}
+	.india-environment-row .post_slider{height: 55vh;}
+	
+	.invest_opprtunity .heading_invest h2, .invest .heading_invest h2{font-size: 50px !important;}
+	.invest_stories .ssNews-list ul li,
+	.row .ssNews-list ul li{width: 95%;margin: 0 0 30px;}
+	.invest_investor .vc_col-sm-4 .wpb_wrapper p {	font-size: 12px;line-height: 15px;height:120px;overflow:hidden;}
+	.standard-button-class{padding: 5px 20px !important;font-size: 14px !important;}
+	.invest_opprtunity .opNews-list ul li .opNews-details{padding: 10px 16px;}
+	.invest_opprtunity .opNews-list ul li .opNews-details h3{width: 100%;font-size: 20px;line-height: 23px;margin-bottom: 5px;}
+	.invest_opprtunity .opNews-list ul li .opNews-details p{font-size: 13px;line-height: 18px;}
+	.invest_opprtunity .opNews-list ul li .opNews-details a.learnMore{padding: 5px 20px;font-size: 16px;line-height: 20px;}
+	.invest_opprtunity .opNews-list ul li .opNews-img img{height: 215px;}
+	
+	.row .opNews-list ul li .opNews-details{padding: 10px 15px 10px 22px;}
+	.row .opNews-list ul li .opNews-details h3{width: 100%;font-size: 20px;line-height: 23px;margin-bottom: 5px;}
+	.row .opNews-list ul li .opNews-details p{font-size: 13px;line-height: 18px;}
+	.row .opNews-list ul li .opNews-details a.learnMore{padding: 5px 20px;font-size: 16px;line-height: 20px;}
+	.row .opNews-list ul li .opNews-img img{height: 215px;}
+	.row .load-more{padding: 20px 0;}
+	.row .load-more a{width: 50px;height: 50px;}
+	
+	.row .buyIndia-content a.readMore{padding: 5px 8px;font-size: 10px;line-height: 16px;}
+	
+	footer.bgHalfWhite .col-sm-3.col-xs-6{padding:0 5px;}
+	.bgHalfWhite .tradeFooter,
+	.bgHalfWhite .investFooter{padding: 15px;min-height: 265px;}
+	.bgHalfWhite .investFooter a, .bgHalfWhite .tradeFooter a {	font-size: 12px !important;margin-bottom: 14px;line-height: 16px;}
+	
+	#topcontrol{right: 12px !important;}
+	#topcontrol img{width: 32px;height: 32px;}
+	
+	.row .otbNews-sec ul li .otNews-left .otNews-desc{font-size: 16px;line-height: 20px;}
+	.row .otbNews-sec ul li .otNews-left .readMore{margin: 10px 0 0;}
+	
+	.home .productBox .grossProduct .greyBox{padding: 15px 0px 15px 15px;min-height: 150px !important;width: 100%;}
+	.productBox .grossProduct .greyBox .value{font-size: 55px;}
+	#gdpgrowth, #economygrowth, #gdppie, #gdpfiscal, #topimportcountries, #topexportcountries, #toptradecountries, 
+	#indiantraderegion, #indianforeignexchange, #fdiequityinflows, #fdihighestinflows, 
+	#fdicumulativeinflows, #businessranking, #startbusinessranking, #gettingelectricity, #protectingminority, #averageage{height: 220px;}
+	
+	.bgyellowBox h3, .bgyellowDarkBox h3{padding: 20px 10px;font-size: 3.5em ;}
+	.vc_custom_1504435005021.invest_bussiness > div > .vc_column-inner{    padding-left: 20px !important;    padding-right: 20px !important;}
+	.row .trade-info .tinfo-right .cdetails h5.sec-title{width: 60%;}
+	.row .cdetails .cflags span{width: 35px;margin: 0 0 0 4px;}
+	.row .publication_ii_right h4{font-size: 24px;line-height: 26px;}
+	.row .publication_iii{margin-top: 15px;}
+	
+}
+
+@media only screen and (max-width:420px){
+	body .btnPart{bottom: 56px;}
+	.row .opNews-list ul li .opNews-details h3{font-size: 16px;line-height: 19px;margin-bottom: 3px;}
+	.row .opNews-list ul li .opNews-details p{font-size: 12px;line-height: 15px;margin: 0 0 10px;}
+	.row .opNews-list ul li .opNews-details a.learnMore{padding: 4px 18px;font-size: 13px;line-height: 20px;}
+	.page-id-2035 .row .trade-info .tinfo-right .page-info{padding: 8px 10px 8px 10px;}
+	.row .buyIndia-content a.readMore{padding: 4px 3px;font-size: 9px;line-height: 14px;}
+	.row .mouDoc-lists ul li .mou-data{width: 85%;}
+	
+	body .navbar-toggle{padding: 3px 5px;}
+	 body .content-wrapper{padding: 90px 0 1px 0;}
+	 body.header2 .featured-news.trade-infoBg, body.header2 .featured-news,
+	 .page-id-24 .featured-news{height: 200px !important;min-height: 200px !important;}
+	
+	 body.page-id-26 .publication-heading, body.page-id-721 .page-heading{min-height: 200px !important;}
+}

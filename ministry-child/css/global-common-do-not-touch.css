@@ -1,0 +1,208 @@
+/*This is a Global css for entire project
+in this style are gobbly written for common thing 
+and specific page by section
+Please don't not modify width coordination
+*/
+
+html, body{
+    margin: 0;
+    padding: 0;
+   'Open Sans', 'Helvetica Neue', Arial, sans-serif
+}
+h1, h2, h3, h4, h5, h6{
+   font-family: atrament-web, sans-serif;
+}
+h2{
+    font-size: 70px;
+}
+
+.clearfix{
+    clear: both;    
+}
+
+.MR_0{
+    margin: 0;
+}
+.MP_0{
+    margin: 0;
+    padding: 0;
+}
+.PD_0{
+    padding: 0;
+}
+.pLR45{
+    padding-left: 45px;
+    padding-right: 45px;
+}
+.pLR60 {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.mT60{
+    margin-top: 60px;
+}
+.mB40{
+    margin-bottom: 40px!important;
+}
+
+/* btn wapper*/
+
+
+/*btn wapper*/
+
+
+.whole-new-page-wapper a{
+ color: #000 !important;  
+}
+
+
+/* India Page */
+.india .page-top-heading h1 {
+    font-size: 10vw;
+    text-transform: uppercase;
+    font-family: atrament-web, sans-serif;
+    color: #fff!important;
+    line-height: 6vw;
+    text-shadow: 3px 3px 10px #000;
+    text-align: left;    
+    margin-left: 5px;
+}
+.india-economy-row-parent .india-economy-row {
+    padding: 50px 0 0 0;
+}
+.india-economy-col-1.vc_column_container{
+    padding-left: 15px;
+    padding-right: inherit;
+}
+.invest_bussiness p {
+    padding: 20px 0;
+}
+
+/* Home Page */
+
+.news_section .newsHeading{
+    color: #585858;
+}
+.bgyellowBox h3{
+     font-size: 4.5em;
+    line-height: 1;
+    color: #f58220;
+    padding: 25px 15px;
+    border-bottom: 12px solid #ffe600;
+}
+.bgyellowDarkBox h3{
+    font-size: 4.5em;
+    line-height: 1;
+    color: #981b1e;
+    padding: 25px 15px;
+    border-bottom: 12px solid #fbcd0b;
+}
+div.bgyellowBox h3 span.event-date, div.bgyellowDarkBox h3 span.event-date{
+    font-size: 40px;
+    line-height: 1;
+    color: #000;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: -10px;
+}
+
+/* Invest Page*/
+.invest_guide .vc_custom_heading p {
+    /*font-size: 24px;*/
+    /*color: #999999;*/
+    /*font-weight: normal;*/
+    /*line-height: 1.3;*/
+}
+
+
+
+
+.standard-button-class{
+    background: transparent !important;
+    padding: 10px 35px !important;
+    color: #585858 !important;
+    font-size: 18px !important;
+    font-weight: 400!important;
+    letter-spacing: 0.5px!important;
+    border: 1px solid #585858!important;
+    border-radius: 0!important;
+    font-family: 'Open Sans'!important;
+    text-decoration: none!important;
+    display: inline-block!important;
+}
+.standard-button-class:hover{
+    background: #000!important;
+    color: #fff!important;
+    border: 1px solid #000!important;
+}
+
+.mobile-date{
+    font-weight:600;
+    font-size:4vw;
+   margin-top: 10px;
+}
+
+.full-width-footer{
+    background: #fff;
+}
+
+.full-event-bg{
+    background-size: 100% auto;
+}
+
+/* Footer */
+.footerLinks a {
+    color: #000;
+    font-size: 14px;
+    margin-bottom: 9px;
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Mobile */
+@media only screen and (max-width: 767px) {
+    .MR_mobile_0{
+        margin: 0;
+    }
+    .MP_mobile_0{
+        margin: 0;
+        padding: 0;
+    }
+    .PD_mobile_0{
+        padding: 0;
+    }
+}
+/* iPad Portrait */
+@media (min-width: 768px) and (max-width: 991px) {
+    .MR_ipadp_0{
+        margin: 0;
+    }
+    .MP_ipadp_0{
+        margin: 0;
+        padding: 0;
+    }
+    .PD_ipadp_0{
+        padding: 0;
+    }
+    .invest_bussiness p{
+        padding: 0;
+    }
+}
+/* iPad Landscape */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .MR_ipadl_0{
+        margin: 0;
+    }
+    .MP_ipadl_0{
+        margin: 0;
+        padding: 0;
+    }
+    .PD_ipadl_0{
+        padding: 0;
+    }
+
+}
+/* Web */
+@media (min-width: 1200px) {
+    
+}

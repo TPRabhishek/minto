@@ -1,0 +1,1561 @@
+a.logo img {
+	max-width: 100%;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.marT38 {
+	margin-top: 38px;
+}
+
+.imgWidth {
+	width: 24px;
+}
+
+ul.customMenu li a {
+	text-transform: uppercase;
+	color: #fff !important;
+}
+
+.carousel-caption {
+	text-align: left;
+	bottom: 0px;
+	top: 135px;
+}
+
+.carousel-caption h2 {
+}
+
+.carousel-caption h2 span {
+	text-transform: uppercase;
+}
+
+.txtBox {
+	text-align: left;
+	color: #999999;
+	padding-top: 10px;
+}
+
+.india .page-top-heading h1 {
+    font-size: 83px !important;
+    text-transform: uppercase;
+    font-family: atrament-web, sans-serif;
+    color: #fff!important;
+    line-height: 6vw;
+    text-shadow: 3px 3px 10px #000;
+    text-align: left;
+    margin-left: 5px;
+}
+.trade .page-top-heading.bannerheading .heading_trade{
+    font-size:7vw !important;
+}
+.heading_trade{
+    font-size:63px;
+	color:#ffffff;
+	text-transform: uppercase;
+    font-family: atrament-web, sans-serif;
+} 
+.trade .trade_expotor .top_box .wpb_wrapper p {
+    padding: 0;
+    text-align: center;
+    text-shadow: 3px 3px 20px #000;
+    line-height: 6vw;
+    font-size:1.5em;
+}
+#menu-item-243 {
+    padding: 8px 7px !important;
+    cursor: pointer;
+}
+body:not(.menu-sandwich) #main-menu>ul>li#menu-item-243 {
+    font-size: 18px !important;
+    min-width: 77px;
+    z-index: 999;
+}
+.invest .heading_trade {
+    font-size: 7vw;
+    text-transform: uppercase;
+    font-family: atrament-web, sans-serif;
+    color: #fff!important;
+    margin: 0;
+    line-height: 6vw;
+    text-shadow: 3px 3px 10px #000;
+    text-align: left;
+    margin-top: 11.5% !important;
+}
+.invest .heading_trade_sub {
+    font-size: 7vw;
+    text-transform: uppercase;
+    font-family: atrament-web, sans-serif;
+    color: #fff!important;
+    margin: 0;
+    line-height: 6vw;
+    text-shadow: 3px 3px 10px #000;
+    text-align: left;
+    margin-top: 1%!important;
+    margin-bottom: 10%;
+}
+/******************************************************************
+===================================================================
+                          common css 
+===================================================================
+*******************************************************************/
+body .bgNav {
+	background: -webkit-linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+	background: -o-linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+	background: -moz-linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+	background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+	background-color: none;
+	border: none;
+}
+h1, h2, h3, h4, h5, h6, .tp-caption, .invertBtn, .tradeBtn{
+    font-family:atrament-web, sans-serif !important;
+}
+body, p{
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 15px;
+}
+
+h2{
+  font-size:63px;  
+}
+
+/******************************************************************
+===================================================================
+                            Home page 
+===================================================================
+*******************************************************************/
+/*home page navigation*/
+.navbar-header{
+    width: 572px;
+    max-width: 100%;
+}
+ul.customMenu > li{
+    padding:10px 15px;
+}
+div#main-menu ul li > a {
+    font-family: atrament-web, sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+
+
+/***************** home page slider **************/
+
+.wide-world{
+    font-family: atrament-web, sans-serif !important;
+    text-transform: uppercase;
+    font-size: 83px !important;
+    line-height: 73px !important;
+    font-weight: 400 !important;
+    color: #ffffff !important;
+    line-height: 6vw;
+    text-shadow: 3px 3px 10px #000;
+    text-align: left;
+}
+.wide-opp{
+    font-family: atrament-web, sans-serif !important;
+    text-transform: capitalize;
+    font-size: 35px !important;
+    line-height: 35px !important;
+    font-weight: 400 !important;
+    color: #ffffff !important;
+    text-shadow: 3px 3px 10px #000;
+    margin-top: 20px !important;
+}
+@media only screen and (max-width: 767px) {
+.wide-world {
+    font-family: atrament-web, sans-serif !important;
+    text-transform: uppercase;
+    font-size: 50px !important;
+    line-height: 50px !important;
+    font-weight: 400 !important;
+    color: #ffffff !important;
+    line-height: 6vw;
+    text-shadow: 3px 3px 10px #000;
+    text-align: left;
+}
+}
+/*home page banner boxes (switzerland, invest, trade)*/
+
+.countries > a > span.country {
+    text-transform: uppercase !important;
+    font-size: 46px !important;
+    line-height: 1 !important;
+    margin-top: 10px !important;
+    color: #323232 !important;
+    text-decoration: none !important;
+    display: block !important;
+    font-family: atrament-web, sans-serif !important;
+    padding-left: 8px !important;
+}
+.btnPart .invertBtn {
+	background-color: rgba(180, 38, 32, 0.7);
+	width: 350px;
+	max-width: 100%;
+	margin-right: 100px;
+	line-height: 80px;
+	display: inline-block;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.btnPart .tradeBtn {
+	background-color: rgba(219, 133, 9, 0.7);
+	max-width: 100%;
+	width: 350px;
+	line-height: 80px;
+	display: inline-block;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.invertBtn, .tradeBtn{
+    font-size:36px;
+}
+
+
+/************************* home page Dashboard Section *************/
+.dash_sub p {
+    font-size: 22px;
+    line-height: 1.2;
+    text-align: center;
+}
+.dashbboardBox {
+	padding: 20px 0px;
+}
+div.productBox .ranking .greyBox .txt {
+    font-size: 14px !important;
+    line-height: 1.4;
+    color: #000;
+    margin-top: 10px;
+    width: auto;
+    padding-left: 10px;
+    float: none !important;
+    overflow: hidden;
+    /* max-width: 140px; */
+    font-family: 'Open Sans', sans-serif;
+}
+.productBox .grossProduct .greyBox .value {
+    font-size: 100px;
+    color: #981b1e;
+    font-family: atrament-web, sans-serif;
+    font-weight: 600;
+    line-height: 1;
+}
+.productBox .foreighProduct .greyBox .smallWidth .number {
+    line-height: 1;
+    font-size: 32px;
+    color: #000;
+	font-family: atrament-web, sans-serif;
+    font-weight: 600;
+}
+.dashbboardBox .headingDash p {
+	line-height: 1;
+	text-transform: uppercase;
+	color: #585858;
+	text-align: center;
+}
+
+.dashbboardBox {
+	text-align: left;
+	color: #999999;
+}
+.dashbboardBox .headingDash h2{
+    font-size: 70px;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #585858;
+    text-align: center;
+    font-weight: 400;
+}
+.productBox .grossProduct .darkRedBox {
+	background-color: #981b1e;
+	color: #fff;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.productBox .grossProduct .greyBox {
+	background-color: #f2f2f2;
+	padding: 30px 0px 40px 60px;
+	margin-bottom: 10px;
+}
+
+.productBox .foreighProduct .greyBox .title {
+    color: #000;
+    line-height: 1;
+    font-family: atrament-web, sans-serif;
+text-transform: uppercase;
+}
+
+.productBox .grossProduct .greyBox .value {
+	color: #981b1e;
+	line-height: 1;
+}
+
+.productBox .grossProduct .greyBox .sub_track {
+	line-height: 1;
+	letter-spacing: 0.5px;
+	
+}
+
+.smallWidth.box_left {
+	float: left !important;
+}
+
+.productBox .grossProduct .greyBox .txt {
+	color: #000;
+}
+
+
+.productBox .foreighProduct .darkRedBox {
+	background-color: #d31f26;
+	color: #fff;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.productBox .foreighProduct .greyBox {
+	background-color: #f2f2f2;
+	padding: 25px 10px;
+	margin-bottom: 10px;
+}
+
+.productBox .foreighProduct .greyBox .smallWidth {}
+
+.productBox .foreighProduct .greyBox .smallWidth .number {
+	line-height: 1;
+	color: #000;
+}
+
+.productBox .foreighProduct .greyBox .smallWidth .monthInfo {
+	color: #000;
+	line-height: 1.2;
+}
+
+.productBox .foreighProduct .graph {
+	padding: 5px 0px;
+	text-align: center
+}
+
+.productBox .foreighProduct .greyBox .smallWidth .txtsmall {
+	color: #000;
+	margin-bottom: 15px;
+	margin-top: 0px;
+	line-height: 1.4;
+font-family: 'Open Sans', sans-serif;
+}
+
+
+.productBox .ranking .darkRedBox {
+	background-color: #f15a22;
+	color: #fff;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.productBox .ranking .greyBox {
+	background-color: #f2f2f2;
+	padding: 25px 30px 35px 30px;
+	margin-bottom: 10px;
+}
+
+.productBox .ranking .greyBox .title {
+	color: #000;
+	line-height: 1.2;
+	    font-family: atrament-web;
+
+	text-transform: uppercase;
+}
+
+.productBox .ranking .greyBox .value {
+	color: #f15a22;
+	line-height: 1;
+}
+
+.productBox .ranking .greyBox .txt {
+	line-height: 1.2;
+	color: #000;
+	margin-top: 10px;
+	width: 140px;
+	padding-left: 20px;
+}
+
+.productBox .ranking .greyBox .headingBlack {
+	color: #000;
+}
+
+.productBox .ranking .greyBox .headingOange {
+	color: #f15a22;
+	line-height: 1;
+}
+
+.marT10 {
+	margin-top: 20px;
+}
+
+.productBox .other .darkRedBox {
+	background-color: #f58220;
+	color: #fff;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.productBox .other .greyBox {
+	background-color: #f2f2f2;
+	padding: 25px 30px 25px 30px;
+	margin-bottom: 10px;
+}
+
+.productBox .other .greyBox .title {
+	color: #000;
+	line-height: 1.2;
+	text-transform: uppercase;
+font-family: atrament-web;
+}
+
+.productBox .other .greyBox .value {
+	color: #f68121;
+	line-height: 1;
+}
+
+.productBox .other .greyBox .txt {
+	line-height: 1.2;
+	color: #000;
+	padding-left: unset;
+	max-width: 165px;
+	margin-bottom: 10px;
+}
+
+.productBox .other .greyBox .orange_rate {
+	color: #f68121;
+	line-height: 1;
+}
+
+.productBox .other .greyBox .txt span {
+	line-height: 16px;
+	color: #f68121;
+	margin-bottom: 5px;
+}
+
+.productBox .other .greyBox .headingBlack {
+	color: #000;
+}
+
+.productBox .other .greyBox .headingOange {
+	color: #f15a22;
+}
+
+.marB15 {
+	margin-bottom: 15px;
+}
+
+.bgYellow {
+	background-color: #fbcd0b;
+	padding: 15px 0px 35px 0px;
+	margin-top: 35px;
+}
+.top_box p {
+    font-family: atrament-web, sans-serif !important;
+    line-height: 1;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    font-size:24px !important;
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+    .india .page-top-heading h3 {
+        font-size: 5.1em;
+    }
+    .heading_india h2 {
+        font-size: 70px;
+    }
+    .india .dashbboardBox .headingDash p {
+        font-size: 70px;
+    }
+    .top_box p {
+        font-size: 25px;
+    }
+    .india-initiatives-row h4 {
+     
+        font-size: 3.3em;
+    }
+}
+
+/****** home page (News Section)   *****/
+.whole-new-page-wapper h4 {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif !important;
+    padding-bottom: 5px !important;
+    font-weight: 300;
+}
+.btnBox {
+    text-align: center;
+    margin: 35px 0px 0px 0px;
+}
+.bgWhite {
+	background-color: #fff;
+}
+
+.padAll {
+	padding: 30px 20px;
+}
+
+.bgYellow .para {
+	color: #000;
+	line-height: 28px;
+	margin-bottom: 10px;
+}
+
+.bgYellow .date {
+	color: #000;
+	margin-bottom: 10px;
+}
+
+
+.bgYellow .pic img {
+	width: 100%;
+}
+
+.newsHeading {
+	padding: 5px 0px;
+	margin-bottom: 10px;
+}
+
+
+.btnBox a.customBtn {
+	padding: 3px 35px;
+	border: 1px solid #fff;
+	display: inline-block;
+	color: #000;
+}
+
+.btnBox a.customBtn:hover {
+	text-decoration: none;
+	color: #fff;
+	background: #585858;
+	border-color: #585858;
+}
+
+.shadow {
+	-webkit-box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.3);
+}
+
+
+/******** home page (trade agreement, make in india, budget) *****/
+
+.tradeBox {
+	background-color: #fff;
+	padding: 45px 35px 25px 35px;
+	margin: 65px 0px;
+}
+
+.tradeBox h3 {
+	color: #000;
+	margin-bottom: 0px;
+}
+
+.tradeBox p {
+	color: #000;
+	margin-bottom: 20px;
+}
+
+.tradeBox a.customBtnRed {
+	padding: 8px 20px;
+	border: 1px solid #fff;
+	background-color: #981b1e;
+	display: inline-block;
+	color: #fff;
+	letter-spacing: 1px;
+	text-align: left;
+	min-width: 140px;
+	margin-top: 10px;
+}
+
+.tradeBox a.customBtnRed:hover {
+	color: #fff;
+	background-color: #d31f26;
+}
+
+.padR0 {
+	padding-right: 0px;
+}
+
+/***************************home page startup india hub ******************/
+
+.gobalBox .imageBox img {
+	width: 100%;
+}
+
+.bgOrange {
+	background-color: #f58220;
+	padding: 12px 32px;
+}
+
+.bgOrange h4 {
+	font-size: 48px;
+    color: #000;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-family: atrament-web, sans-serif !important;
+    padding:18px 25px 6px 20px;
+    line-height: 1;
+}
+
+.bgOrange p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+	padding:6px 25px 6px 20px;
+    color: #000;
+    line-height: 1.4;
+}
+
+div.bgOrange a {
+	margin-top: 10px;
+	padding: 8px 20px;
+	background-color: transparent!important;
+	display: inline-block;
+	color: #585858!important;
+	margin-bottom: 15px;
+	min-width: 140px;
+	border: none;
+	border: 1px solid #585858;
+	text-align: center;
+}
+
+div.bgOrange a:hover {
+	color: #fff!important;
+	background-color: #000!important;
+	border: 1px solid #000!important;
+}
+
+
+/************ Home page (Event Section) ************/
+
+.eventHeading {
+	color: #444344;
+	    padding: 5px 0px;
+	text-align: center;
+	    margin-bottom: 40px !important;
+}
+
+.bgyellowBox {
+	background-color: #ffe600;
+}
+
+.bgyellowBox h6 {
+	color: #444344;
+	padding: 30px 15px 15px;
+	min-height: 150px;
+	letter-spacing: 0px;
+	text-align: center;
+}
+
+.bgyellowBox h6 a {
+	display: inline-block;
+	max-width: 240px;
+	text-align: left;
+}
+
+.bgyellowBox p {
+	line-height: 45px;
+	color: #f58220;
+	padding: 0px 15px;
+	border-bottom: 12px solid #ffe600;
+}
+
+.bgyellowBox p span {
+	color: #000;
+}
+
+.bgyellowDarkBox {
+	background-color: #fbcd0b;
+}
+
+.bgyellowDarkBox h6 {
+	color: #444344;
+	padding: 30px 15px 15px;
+	min-height: 150px;
+	letter-spacing: 0px;
+	text-align: center;
+}
+
+.bgyellowDarkBox h6 a {
+	display: inline-block;
+	max-width: 240px;
+	text-align: left;
+}
+
+.bgyellowDarkBox p {
+	line-height: 45px;
+	color: #981b1e;
+	padding: 0px 15px;
+	border-bottom: 12px solid #fbcd0b;
+}
+
+.bgyellowDarkBox p span {
+	color: #000;
+}
+
+event .page-heading {
+    height: 380px !important;
+    margin-top: -50px !important;
+}
+.event .page-heading .Page-heading {
+    margin-bottom: 50px !important;
+}
+.event .section-2 .go-global h4 {
+    color: #000 !important;
+    margin-bottom: 20px !important;
+    line-height: 3rem !important;
+}
+.event .section-2 .go-global h5 {
+    color: #000 !important;
+    line-height: 1.5rem !important;
+}
+.event .section-2 .go-global a {
+    margin-top: 10px !important;
+    padding: 8px 20px !important;
+    background-color: #fff !important;
+    display: inline-block !important;
+    color: #585858 !important;
+    margin-bottom: 15px !important;
+    min-width: 140px !important;
+    border: none !important;
+}
+.event .section-2 .start-up-image {
+    height: 100% !important;
+    position: absolute !important;
+    width: 100% !important;
+}
+.event .section-2 .start-up-image img,
+.event .section-2 .start-up-image .wpb_wrapper.vc_figure,
+.event .section-2 .start-up-image .vc_single_image-wrapper.vc_box_border_grey {
+    width: 100% !important;
+    height: 100% !important;
+}
+.event .section-2 .startup-hub p {
+    text-transform: uppercase !important;
+    color: #515151 !important;
+    background: rgba(255, 255, 255, 0.7) !important;
+    position: absolute !important;
+    bottom: 0px !important;
+    right: 10% !important;
+    line-height: 2 !important;
+    padding: 0px 30px !important;
+}
+.event .section-3 .more-button button {
+    margin-top: 10px !important;
+    padding: 8px 20px !important;
+    background-color: #f4872c !important;
+    display: inline-block !important;
+    color: #000 !important;
+    margin-bottom: 15px !important;
+    min-width: 140px !important;
+    border: none !important;
+}
+.event .section-3 .event-list .event-item {
+    margin: 25px 0 !important;
+}
+.event .section-3 .event-list .event-item .event-date {
+    padding: 0px 30px 15px 15px !important;
+    width: 15% !important;
+}
+.event .section-3 .event-list .event-item .event-date,
+.event .section-3 .event-list .event-item .event-content {
+    display: inline-block !important;
+    vertical-align: top !important;
+}
+.event .section-3 .event-list .event-item .event-content {
+    width: 80% !important;
+    border-left: 5px solid #f05b21 !important;
+    padding-left: 20px;
+}
+.event .section-3 .event-list .event-item .event-day {
+    color: #f48221 !important;
+    line-height: 1.5rem;
+}
+.event .section-3 .event-list .event-item .event-year {
+    color: #000 !important;
+}
+.event .section-3 .event-list .event-item .event-content .event-title {
+    color: #000 !important;
+    margin: 0 !important;
+    line-height: 2.2rem;
+}
+.event .section-3 .event-list .event-item .event-content .event-title a {
+    color: #000 !important;
+    line-height: 1.4rem;
+    margin: 0 !important;
+}
+.event .section-3 .event-list .event-item .event-content .event-discription ul {
+    margin: 0 !important;
+}
+.event .section-3 .event-list .event-item .event-content .event-discription p,
+.event .section-3 .event-list .event-item .event-content .event-discription a,
+.event .section-3 .event-list .event-item .event-content .event-discription ul li a,
+.event .section-3 .event-list .event-item .event-content .event-discription ul li {
+    text-decoration: none !important;
+    color: #000 !important;
+    margin: 0 !important;
+    padding: 12px 0;
+    line-height: 1.6rem;
+    list-style: none !important;
+}
+.event .section-3 .event-list .event-item .event-content .event-discription .event-cat {
+    background: #fff !important;
+    border: 1px solid #797979 !important;
+    color: #797979 !important;
+    display: inline-block !important;
+    padding: 10px !important;
+    line-height: 12px !important;
+}
+.event .section-3 .event-list .event-item .event-content .event-discription ul>li:before,
+.event .section-3 .event-list .event-item .event-content .event-discription ul>li:before {
+    display: none !important;
+}
+
+.event_wrapper .event-date {
+	padding: 0 5px;
+}
+.btnBoxEvent {
+	margin: 45px 0px;
+}
+
+.btnBoxEvent a.btnevent {
+	background-color: transparent;
+	padding: 10px 40px 10px 40px;
+	color: #564502;
+	letter-spacing: 0.5px;
+	border: 1px solid #585858;
+}
+
+.btnBoxEvent a.btnevent:hover {
+	background-color: #000;
+	color: #fff;
+	border: 1px solid #000;
+}
+@media screen and (min-width: 768px) {
+	.pLR0 {
+		padding-left: 0!important;
+		padding-right: 0!important;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.event .section-3 .event-list .event-item .event-content {
+		width: 100% !important;
+		border-left: 0!important;
+		padding: 15px;
+	}
+	.archive .entry-content {
+		padding: 0 15px;
+	}
+	.event .section-3 .event-list .event-item .event-day,
+	.event .section-3 .event-list .event-item .event-year {
+		font-family: atrament-web;
+	}
+}
+@media only screen and (max-width: 500px) {
+    .event .section-3 .event-list .event-item .event-date {
+        border-right: 0px solid #f05b21 !important;
+        border-bottom: 3px solid #f05b21 !important;
+        width: 100% !important;
+    }
+    .event .section-3 .event-list .event-item .event-content {
+        width: 100% !important;
+        border-left: 0!important;
+        padding: 15px;
+    }
+    .archive .entry-content {
+        padding: 0 15px;
+    }
+    .event .section-3 .event-list .event-item .event-day,
+    .event .section-3 .event-list .event-item .event-year {
+        
+    }
+}
+.trade .btnBox a.customBtn:hover {
+    background-color: #585858;
+  
+}
+.table_box > div > p {
+    width: 25%;
+    float: left;
+    padding: 25px;
+    color: #000;
+    box-shadow: 0px 0px 0px 2px #cf128c inset;
+    border: 10px solid transparent;
+}
+@media only screen and (max-width: 1024px) {
+    .table_box > div > p {
+        width: 50%;
+        min-height: 200px;
+    }
+    .archive .entry-content {
+        padding: 0 15px;
+    }
+    .event .section-3 .event-list .event-item .event-date {
+        width: 25% !important;
+    }
+    .event .section-3 .event-list .event-item .event-content {
+        width: 70% !important;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .table_box > div > p {
+        width: 100%;
+    }
+    .event .section-3 .event-list .event-item .event-date {
+        width: 100% !important;
+    }
+    .event .section-2 .go-global h4 {
+        font-size: 8vw;
+    }
+    .event .section-2 .go-global h5 {
+        line-height: 1rem !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .heading_trade_half {
+        text-align: center !important;
+    }
+    .recent-post-slider.design-1 .post-image-bg img,
+    .recent-post-slider.design-2 .post-image-bg img,
+    .recent-post-slider.design-3 .post-image-bg img {
+        max-width: 100%;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {}
+/*end*/
+
+@media only screen and (min-width: 768px) {
+    .trade .tourism_slider .recent-post-slider.design-2 .post-image-bg {
+        min-height: 750px !important;
+    }
+}
+.mB50{
+    margin-bottom: 50px!important;
+}
+.pB10{
+    padding-bottom: 10px!important;
+}
+
+
+
+
+
+
+
+
+
+
+
+/******************************************************************
+===================================================================
+                            trade page
+===================================================================
+*******************************************************************/
+
+
+
+@media only screen and (min-width: 769px) and (max-width: 1023px) {
+    .news_section .col-sm-3:nth-last-child(even) {
+        display: none
+    }
+    .news_section .col-sm-3 {
+        width: 33.33333333%;
+    }
+    .gobalBox .vc_col-sm-9 {
+        width: 100%;
+        min-height: 400px;
+    }
+    .gobalBox .vc_col-sm-3 {
+        width: 100%;
+    }
+    .event_wrapper .col-sm-3 {
+        width: 50%;
+    }
+}
+.trade .trade_banner_box {
+    padding: 0 68px !important;
+}
+.trade .trade_banner_box .vc_column-inner {
+    padding: 0 !important;
+}
+
+.trade .page-top-heading.bannerheading .heading_trade {
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0;
+    line-height: 6vw;
+    text-shadow: 3px 3px 20px #000;
+    text-align: left;
+    margin-top: 5% !important;
+}
+.trade .page-top-heading .subtitle {
+    color: #fff;
+    text-shadow: 3px 3px 20px #000;
+    text-align: left;
+}
+.trade .trade_policies .heading_trade,
+.trade .page-top-heading .heading_trade,
+.trade .heading_india,
+.trade .trade_sector .heading_trade,
+.trade .trade_news .heading_trade_half,
+.trade .trade_tourism .tourism_heading {
+    color: #585858;
+    line-height: 1;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    margin: 0px 0px 35px 0px;
+    text-align: center;
+}
+.trade .trade_policies p {
+    color: #ababab;
+    text-align: justify;
+}
+.trade .trade_policies .readmore-button p {
+    text-align: center !important;
+}
+.trade .trade_policies .readmore-button .read_more {
+    background: none;
+    padding: 7px 35px 7px 35px;
+    color: #222;
+    border: 1px solid #f00;
+    border-radius: 0;
+    position: relative;
+    line-height: 25px !important;
+}
+.trade .trade_policies .readmore-button .read_more:hover {
+    background-color: #f00;
+    color: #fff;
+}
+.trade .trade_expotor .page-top-heading {} .trade .exportors_slider .recent-post-slider button.slick-prev,
+.trade .exportors_slider .recent-post-slider button.slick-prev:hover,
+.trade .exportors_slider .recent-post-slider button.slick-prev:focus {
+    background: url(../images/orange-left.png) 0 0 no-repeat !important;
+    background-size: 100% 100% !important;
+    outline: none !important;
+    box-shadow: none;
+    width: 20px;
+    height: 60px;
+    left: -50px !important;
+}
+.trade .exportors_slider .recent-post-slider button.slick-next,
+.trade .exportors_slider .recent-post-slider button.slick-next:hover,
+.trade .exportors_slider .recent-post-slider button.slick-next:focus {
+    background: url(../images/orange-rightt.png) 0 0 no-repeat !important;
+    background-size: 100% 100% !important;
+    outline: none !important;
+    box-shadow: none;
+    width: 20px;
+    height: 60px;
+    right: -50px !important;
+}
+.trade .recent-post-slider.design-4 .post-image-bg {
+    height: 320px !important;
+}
+.trade .recent-post-slider.design-4 .slick-dots {
+    display: none !important;
+}
+.trade .exportors_slider .post-list .post-list-content .wp-medium-7.wpcolumns {
+    width: 30% !important;
+}
+.trade .exportors_slider .post-list .post-list-content .wp-medium-5.wpcolumns {
+    width: 70% !important;
+}
+.trade .exportors_slider .post-list .post-list-content .wp-sub-content {
+    line-height: 1.8rem !important;
+    color: #000 !important;
+}
+.trade .recent-post-slider.design-4 .wp-post-content a.readmorebtn {
+    color: #222 !important;
+    border-color: #981c1e !important;
+    padding-right: 50px !important;
+}
+.trade .trade_help {} .trade .trade_help .trade_help_item .wpb_text_column {
+    margin: 0 !important;
+    padding: 10px !important;
+    text-align: left !important;
+}
+.trade .trade_help .trade_help_item:nth-child(1) .wpb_text_column {
+    background: #981c1e !important;
+    color: #fff !important;
+}
+.trade .trade_help .trade_help_item:nth-child(2) .wpb_text_column {
+    background: #d32026 !important;
+    color: #fff !important;
+}
+.trade .trade_help .trade_help_item:nth-child(3) .wpb_text_column {
+    background: #f15a23 !important;
+    color: #fff !important;
+}
+.trade .trade_sector p {
+    color: #000 !important;
+}
+.trade .trade_sector .read_more {
+    border: 1px solid #981b1f;
+    padding: 5px 30px 5px 5px;
+    color: #222;
+}
+.trade .trade_faq .heading_india,
+.trade .trade_faq .faq_text {
+    display: inline-block !important;
+    vertical-align: middle !important;
+    padding: 0 20px !important;
+    margin: 0;
+    width: 100%;
+}
+.trade .trade_faq .heading_india {
+}
+.trade .trade_faq .faq_text {
+   
+    text-align: center;
+    color: #ababab;
+}
+.trade .trade_faq .faq_learnmore .read_more {
+    border: 1px solid #585858;
+    padding: 10px 35px;
+    color: #222;
+    margin: 0 !important;
+}
+.trade .trade_faq .faq_learnmore .read_more:hover {
+color: #fff!important;
+background: #585858!important;
+border-color: #585858 !important;
+}
+.trade .trade_tourism {
+    text-align: center !important;
+}
+.trade .trade_tourism .tourism_heading,
+.trade .trade_tourism .tourism_text {
+    display: inline-block !important;
+    text-align: center !important;
+    vertical-align: middle !important;
+    padding: 0 20px !important;
+    width: 100%;
+}
+.trade .trade_tourism .tourism_heading {
+    /*text-align:right !important;*/
+}
+.trade .trade_tourism .tourism_text {
+    color: #ababab !important;
+    text-align: center;
+}
+.trade .trade_tourism .tourism_text .wpb_wrapper {
+    /*width:60% !important;*/
+}
+.trade .trade_tourism .tourism_text p {
+    text-align: center;
+    line-height: 1.2;
+    padding: 0 20%;
+}
+.trade .tourism_slider .recent-post-slider button.slick-prev,
+.trade .tourism_slider .recent-post-slider button.slick-prev:hover,
+.trade .tourism_slider .recent-post-slider button.slick-prev:focus {
+    background: url(../images/white-left.png) 0 0 no-repeat !important;
+    background-size: 100% 100% !important;
+    outline: none !important;
+    box-shadow: none;
+    width: 20px;
+    height: 60px;
+    left: 25px !important;
+    top: 42% !important;
+}
+.trade .tourism_slider .recent-post-slider button.slick-next,
+.trade .tourism_slider .recent-post-slider button.slick-next:hover,
+.trade .tourism_slider .recent-post-slider button.slick-next:focus {
+    background: url(../images/white-right.png) 0 0 no-repeat !important;
+    background-size: 100% 100% !important;
+    outline: none !important;
+    box-shadow: none;
+    width: 20px;
+    height: 60px;
+    right: 25px !important;
+    top: 42% !important;
+}
+.trade .tourism_slider .recent-post-slider.design-2 .slick-dots {
+    display: none !important;
+}
+.trade .tourism_slider .recent-post-slider.design-2 .post-slides .post-content-left {
+    left: auto !important;
+    right: 0 !important;
+    background: none !important;
+    text-align: left !important;
+    padding: 50px 100px 0 0 !important;
+}
+
+.trade .tourism_slider .recent-post-slider.design-2 .post-slides .post-content-left .recentpost-inner-content {
+    padding: 20px 0 0 100px;
+}
+.trade .tourism_slider .recent-post-slider.design-2 .post-slides .post-content-left .recentpost-inner-content .wp-post-title {
+    margin-bottom: 30px !important;
+}
+.trade .tourism_slider .recent-post-slider.design-2 .post-slides .post-content-left .recentpost-inner-content .wp-post-title a {
+    line-height: 3rem !important;
+    color: #fff !important;
+    text-transform: uppercase;
+}
+.trade .tourism_slider .recent-post-slider.design-2 .post-slides .post-content-left .recentpost-inner-content .wp-sub-content {
+    line-height: 2rem !important;
+    color: #fff !important;
+    width: 80%;
+    margin-bottom: 15px;
+}
+.trade .tourism_slider .recent-post-slider.design-2 .post-content-left .readmorebtn {
+    background: #fff;
+    color: #e43e8b;
+    padding-right: 40px;
+}
+.trade .trade_news .news_section .para a {
+    color: #000 !important;
+    text-decoration: none !important;
+}
+.trade_sector .readmore-button1 {
+    display: none !important;
+}
+.trade .trade_help .trade_help_item .top_box p {
+    text-align: left !important;
+}
+
+.trade .trade_faq .faq_text p {
+    text-align: center;
+    line-height: 1.2;
+}
+@media only screen and (max-width: 769px) {
+    .trade .trade_banner_box {
+        padding: 0 10px !important;
+    }
+    
+    .exportors_slider .slick-slider {
+        height: 500px !important;
+    }
+    .slick-list {
+        height: inherit !important;
+    }
+    .trade .trade_policies .readmore-button p {
+        text-align: left !important;
+    }
+    .trade .trade_policies .heading_trade,
+    .trade .page-top-heading .heading_trade,
+    .trade .trade_tourism .tourism_heading {
+        text-align: center;
+    }
+    .trade_expotor,
+    .trade .vc_column-inner {
+         padding: 0 !important;
+    }
+    
+    
+    .trade .exportors_slider .post-list .post-list-content {
+        position: relative !important;
+    }
+    .trade .exportors_slider .post-list .post-list-content .wpcolumns {
+        width: 100% !important;
+        padding: 0 !important;
+        position: absolute !important;
+    }
+    .trade .exportors_slider .post-list .post-list-content .wp-medium-5.wpcolumns {
+        top: 0 !important;
+        left: 0 !important;
+        width: 100% !important;
+        height: 320px !important;
+    }
+    .trade .exportors_slider .post-list .post-list-content .wp-medium-7.wpcolumns {
+        top: 360px !important;
+        left: 0 !important;
+        width: 70% !important;
+        text-align: center !important;
+        margin: 0 15% !important;
+    }
+    .trade .trade_tourism .tourism_heading,
+    .trade .trade_tourism .tourism_text {
+        width: 100% !important;
+        margin: 0 !important;
+    }
+    .trade .exportors_slider .recent-post-slider button.slick-prev,
+    .trade .exportors_slider .recent-post-slider button.slick-prev:hover,
+    .trade .exportors_slider .recent-post-slider button.slick-prev:focus {
+        left: 15px !important;
+        bottom: 50px !important;
+        margin-bottom: 0 !important;
+        margin-top: auto !important;
+    }
+    .trade .tourism_slider {
+        margin-top: 30px !important;
+    }
+    .trade .exportors_slider .post-list .post-list-content .wp-sub-content {
+        text-align: left !important;
+        line-height: 1.2rem !important;
+    }
+    .trade .exportors_slider .recent-post-slider button.slick-next,
+    .trade .exportors_slider .recent-post-slider button.slick-next:hover,
+    .trade .exportors_slider .recent-post-slider button.slick-next:focus {
+        right: 15px !important;
+        bottom: 50px !important;
+        margin-bottom: 0 !important;
+        margin-top: auto !important;
+    }
+    .trade .trade_tourism .tourism_heading,
+    .trade .trade_tourism .tourism_text {
+        padding: 0 0px !important;
+    }
+    .trade_sector {
+        padding: 0 !important;
+        width: 100% !important;
+        overflow: visible !important;
+        max-width: 100% !important;
+        margin: 0 !important;
+        left: 0 !important;
+        padding-bottom: 40px !important;
+    }
+    .trade_sector .vc_grid-item.vc_clearfix.vc_col-sm-4.vc_visible-item {
+        width: 33.33% !important;
+        margin: 0 !important;
+        display: inline-block;
+        padding: 5px;
+    }
+    .trade_sector .readmore-button {
+        display: none !important;
+    }
+    .trade_sector .readmore-button.readmore-button1 {
+        text-align: center !important;
+        position: absolute !important;
+        display: block !important;
+        left: 44% !important;
+    }
+    
+    .trade_news {
+        padding: 0 !important;
+    }
+    .trade_faq {
+        padding: 20px !important;
+    }
+    .trade .trade_faq .heading_india,
+    .trade .trade_faq .faq_text {
+        display: inline-block !important;
+        text-align: center !important;
+        width: 100% !important;
+        vertical-align: middle !important;
+        padding: 0 20px !important;
+        margin: 0 !important;
+    }
+    .trade .trade_faq .faq_text {
+        text-align: left !important;
+    }
+    .trade .trade_policies .heading_trade,
+    .trade .page-top-heading .heading_trade,
+    .trade .heading_india,
+    .trade .trade_sector .heading_trade,
+    .trade .trade_news .heading_trade_half,
+    .trade .trade_tourism .tourism_heading {
+        
+    }
+    .trade .heading_trade,
+    .trade .subtitle,
+    .trade .trade_policies .policies_text,
+    .trade .trade_sector .sectors_text,
+    .trade .trade_policies .readmore-button,
+    .trade .trade_tourism .tourism_text,
+    .trade .trade_tourism .heading_trade_half {
+        padding: 0 0 25px !important;
+    }
+    .heading_trade_half {
+        padding: 0 0 25px !important;
+    }
+    .trade .tourism_slider .recent-post-slider.design-2 .post-slides .post-content-left {
+        padding: 15% 0 0 0px !important;
+    }
+    .trade .tourism_slider .recent-post-slider.design-2 .post-slides .post-content-left .recentpost-inner-content .wp-post-title a {
+        line-height: 2.1rem !important;
+    }
+    .trade .tourism_slider .recent-post-slider.design-2 .post-slides .post-content-left .recentpost-inner-content .wp-sub-content {
+        line-height: 1.3rem !important;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .recent-post-slider.design-1 .wp-post-content,
+    .recent-post-slider.design-2 .wp-post-content,
+    .recent-post-slider.design-3 .wp-post-content {
+        display: block !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+/*
+===============================================
+                    footer
+================================================
+*/
+
+
+
+.bgHalfWhite {
+	background-color: #f2f2f2;
+	padding: 45px 25px;
+}
+
+.bgHalfWhite .investFooter {
+	background-color: #cc4b48;
+	padding: 25px;
+}
+
+.bgHalfWhite .investFooter h5 {
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+.bgHalfWhite .investFooter a {
+	color: #fff;
+	margin-bottom: 21px;
+	display: block;
+}
+
+.bgHalfWhite .investFooter a:hover {
+	text-decoration: underline;
+}
+
+.bgHalfWhite .tradeFooter {
+	background-color: #fcaf32;
+	padding: 25px;
+}
+
+.bgHalfWhite .tradeFooter h5 {
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+.bgHalfWhite .tradeFooter a {
+	color: #fff;
+	margin-bottom: 22px;
+	display: block;
+}
+
+.bgHalfWhite .tradeFooter a:hover {
+	text-decoration: underline;
+}
+
+.bgHalfWhite .stayConnectFooter {
+	padding: 15px;
+}
+
+.bgHalfWhite .stayConnectFooter .socialIcon {
+	text-align: right;
+	margin-bottom: 15px;
+}
+
+.bgHalfWhite .stayConnectFooter .socialIcon a {}
+
+.bgHalfWhite .stayConnectFooter .socialIcon a img {
+	width: 45px;
+	height: 45px;
+}
+
+.bgWhiteFooter {
+	background-color: #fff;
+	padding: 20px;
+}
+
+.bgWhiteFooter h6 {
+	color: #585858;
+	margin-bottom: 15px;
+}
+
+.bgWhiteFooter p {
+	color: #585858;
+	font-size: 14px;
+	margin-bottom: 0px;
+}
+
+.bgWhiteFooter input {
+	color: #585858;
+	padding: 4px;
+	margin-bottom: 14px;
+	background-color: #f2f2f2;
+	border: none;
+}
+
+.padL0 {
+	padding-left: 0px;
+}
+
+.footerPic img {
+	width: 95%;
+}
+
+.footerLinks {
+	margin-top: 25px;
+}
+
+.footerLinks h6 {
+	color: #000;
+	margin-bottom: 15px;
+}
+
+.footerLinks a {
+	color: #000;
+	margin-bottom: 15px;
+	display: block;
+}
+
+.policyLinkFooter {
+	color: #000;
+	margin-top: 45px;
+	background-color: #fff;
+	padding: 25px 10px;
+}
+
+.policyLinkFooter a {
+	color: #000;
+}
+
+.policyLinkFooter a:hover {
+	text-decoration: underline
+}
+
+a.navbar-brand.logo {
+	height: 69px;
+	width: 480px;
+}
+
+.search .page-content button.fa.fa-times.close_btn {
+	display: none;
+}
+
+
+.publication-row-four-blocks {
+	margin-top: 50px;
+}
+
+
+/***************************
+contact us
+*****************************/
+.entry-content table.contactTable tr th, .entry-content table.contactTable tr td{
+	border:none;
+}
+.entry-content table.contactTable tr th{
+	background:#f68121;
+	color:#ffffff;
+}
+.entry-content table.contactTable tr th:nth-child(1), .entry-content table.contactTable tr th:nth-child(2){
+	border-right:1px solid #ffffff;
+}
+
+
+

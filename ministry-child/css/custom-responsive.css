@@ -1,0 +1,706 @@
+@media only screen and (min-width: 769px) and (max-width: 1023px) {
+    .news_section .col-sm-3:nth-last-child(even) {
+        display: none
+    }
+    .news_section .col-sm-3 {
+        width: 33.33333333%;
+    }
+    .gobalBox .vc_col-sm-9 {
+        width: 100%;
+        min-height: 400px;
+    }
+    .gobalBox .vc_col-sm-3 {
+        width: 100%;
+    }
+    .event_wrapper .col-sm-3 {
+        width: 50%;
+    }
+}
+.trade .trade_banner_box {
+    padding: 0 68px !important;
+}
+.trade .trade_banner_box .vc_column-inner {
+    padding: 0 !important;
+}
+.trade .page-top-heading {
+    /* top: 30px;    position: relative;    left: 3%;    right: 20%;    padding-bottom: 30px; */
+}
+.trade .page-top-heading.bannerheading .heading_trade {
+    font-size: 10vw;
+    text-transform: uppercase;
+    font-family: atrament-web, sans-serif;
+    color: #fff;
+    margin: 0;
+    line-height: 6vw;
+    text-shadow: 3px 3px 20px #000;
+    text-align: left;
+    margin-top: 5% !important;
+}
+.trade .page-top-heading .subtitle {
+    font-size: 6vw;
+    font-family: atrament-web, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #fff;
+    text-shadow: 3px 3px 20px #000;
+    text-align: left;
+}
+.trade .trade_policies .heading_trade,
+.trade .page-top-heading .heading_trade,
+.trade .heading_india,
+.trade .trade_sector .heading_trade,
+.trade .trade_news .heading_trade_half,
+.trade .trade_tourism .tourism_heading {
+    font-size: 70px;
+    color: #585858;
+    line-height: 1;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: atrament-web, sans-serif;
+    margin-bottom: 40px;
+    margin: 0px 0px 35px 0px;
+    text-align: center;
+}
+.trade .trade_policies p {
+    font-family: 'Open Sans';
+    font-size: 1.3rem;
+    color: #ababab;
+    text-align: justify;
+    font-weight: 400;
+}
+.trade .trade_policies .readmore-button p {
+    text-align: center !important;
+}
+.trade .trade_policies .readmore-button .read_more {
+    background: none;
+    padding: 7px 35px 7px 35px;
+    color: #222;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    border: 1px solid #f00;
+    border-radius: 0;
+    position: relative;
+    font-size: 18px;
+    line-height: 25px !important;
+}
+.trade .trade_policies .readmore-button .read_more:hover {
+    background-color: #f00;
+    color: #fff;
+}
+.trade .trade_expotor .page-top-heading {} .trade .exportors_slider .recent-post-slider button.slick-prev,
+.trade .exportors_slider .recent-post-slider button.slick-prev:hover,
+.trade .exportors_slider .recent-post-slider button.slick-prev:focus {
+    background: url(../images/orange-left.png) 0 0 no-repeat !important;
+    background-size: 100% 100% !important;
+    outline: none !important;
+    box-shadow: none;
+    width: 20px;
+    height: 60px;
+    left: -50px !important;
+}
+.trade .exportors_slider .recent-post-slider button.slick-next,
+.trade .exportors_slider .recent-post-slider button.slick-next:hover,
+.trade .exportors_slider .recent-post-slider button.slick-next:focus {
+    background: url(../images/orange-rightt.png) 0 0 no-repeat !important;
+    background-size: 100% 100% !important;
+    outline: none !important;
+    box-shadow: none;
+    width: 20px;
+    height: 60px;
+    right: -50px !important;
+}
+.trade .recent-post-slider.design-4 .post-image-bg {
+    height: 320px !important;
+}
+.trade .recent-post-slider.design-4 .slick-dots {
+    display: none !important;
+}
+.trade .exportors_slider .post-list .post-list-content .wp-medium-7.wpcolumns {
+    width: 30% !important;
+}
+.trade .exportors_slider .post-list .post-list-content .wp-medium-5.wpcolumns {
+    width: 70% !important;
+}
+.trade .exportors_slider .post-list .post-list-content .wp-sub-content {
+    font-size: 1.3rem !important;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.8rem !important;
+    font-weight: 400;
+    color: #000 !important;
+}
+.trade .recent-post-slider.design-4 .wp-post-content a.readmorebtn {
+    color: #222 !important;
+    border-color: #981c1e !important;
+    padding-right: 50px !important;
+}
+.trade .trade_help {} .trade .trade_help .trade_help_item .wpb_text_column {
+    margin: 0 !important;
+    padding: 10px !important;
+    text-align: left !important;
+    font-size: 12px !important;
+}
+.trade .trade_help .trade_help_item:nth-child(1) .wpb_text_column {
+    background: #981c1e !important;
+    color: #fff !important;
+}
+.trade .trade_help .trade_help_item:nth-child(2) .wpb_text_column {
+    background: #d32026 !important;
+    color: #fff !important;
+}
+.trade .trade_help .trade_help_item:nth-child(3) .wpb_text_column {
+    background: #f15a23 !important;
+    color: #fff !important;
+}
+.trade .trade_sector p {
+    color: #000 !important;
+    font-size: 1.5rem !important;
+}
+.trade .trade_sector .read_more {
+    border: 1px solid #981b1f;
+    padding: 5px 30px 5px 5px;
+    font-size: 1rem;
+    color: #222;
+}
+.trade .trade_faq .heading_india,
+.trade .trade_faq .faq_text {
+    display: inline-block !important;
+    vertical-align: middle !important;
+    padding: 0 20px !important;
+    margin: 0;
+    width: 100%;
+}
+.trade .trade_faq .heading_india {
+    /*text-align:right !important;*/
+}
+.trade .trade_faq .faq_text {
+   /* margin: 35px 0;*/
+    /*text-align:left !important;*/
+    
+    text-align: center;
+    color: #ababab;
+}
+.trade .trade_faq .faq_learnmore .read_more {
+    border: 1px solid #585858;
+    padding: 10px 35px;
+    font-size: 1rem;
+    color: #222;
+        font-family: 'Open Sans', sans-serif !important;
+    margin: 0 !important;
+}
+.trade .trade_faq .faq_learnmore .read_more:hover {
+color: #fff!important;
+background: #585858!important;
+border-color: #585858 !important;
+}
+.trade .trade_tourism {
+    text-align: center !important;
+}
+.trade .trade_tourism .tourism_heading,
+.trade .trade_tourism .tourism_text {
+    display: inline-block !important;
+    text-align: center !important;
+    vertical-align: middle !important;
+    padding: 0 20px !important;
+    width: 100%;
+}
+.trade .trade_tourism .tourism_heading {
+    /*text-align:right !important;*/
+}
+.trade .trade_tourism .tourism_text {
+    color: #ababab !important;
+    text-align: center;
+}
+.trade .trade_tourism .tourism_text .wpb_wrapper {
+    /*width:60% !important;*/
+}
+.trade .trade_tourism .tourism_text p {
+    font-family: 'Open Sans', sans-serif !important;
+    text-align: center;
+    font-size: 22px;
+    line-height: 1.2;
+    padding: 0 20%;
+}
+.trade .tourism_slider .recent-post-slider button.slick-prev,
+.trade .tourism_slider .recent-post-slider button.slick-prev:hover,
+.trade .tourism_slider .recent-post-slider button.slick-prev:focus {
+    background: url(../images/white-left.png) 0 0 no-repeat !important;
+    background-size: 100% 100% !important;
+    outline: none !important;
+    box-shadow: none;
+    width: 20px;
+    height: 60px;
+    left: 25px !important;
+    top: 42% !important;
+}
+.trade .tourism_slider .recent-post-slider button.slick-next,
+.trade .tourism_slider .recent-post-slider button.slick-next:hover,
+.trade .tourism_slider .recent-post-slider button.slick-next:focus {
+    background: url(../images/white-right.png) 0 0 no-repeat !important;
+    background-size: 100% 100% !important;
+    outline: none !important;
+    box-shadow: none;
+    width: 20px;
+    height: 60px;
+    right: 25px !important;
+    top: 42% !important;
+}
+.trade .tourism_slider .recent-post-slider.design-2 .slick-dots {
+    display: none !important;
+}
+.trade .tourism_slider .recent-post-slider.design-2 .post-slides .post-content-left {
+    left: auto !important;
+    right: 0 !important;
+    background: none !important;
+    text-align: left !important;
+    padding: 50px 100px 0 0 !important;
+}
+
+.trade .tourism_slider .recent-post-slider.design-2 .post-slides .post-content-left .recentpost-inner-content {
+    padding: 20px 0 0 100px;
+}
+.trade .tourism_slider .recent-post-slider.design-2 .post-slides .post-content-left .recentpost-inner-content .wp-post-title {
+    margin-bottom: 30px !important;
+}
+.trade .tourism_slider .recent-post-slider.design-2 .post-slides .post-content-left .recentpost-inner-content .wp-post-title a {
+    font-size: 3rem !important;
+    line-height: 3rem !important;
+    color: #fff !important;
+    text-transform: uppercase;
+    font-weight: 600 !important;
+    font-family: atrament-web;
+}
+.trade .tourism_slider .recent-post-slider.design-2 .post-slides .post-content-left .recentpost-inner-content .wp-sub-content {
+    font-size: 2rem !important;
+    line-height: 2rem !important;
+    color: #fff !important;
+    font-weight: 300 !important;
+    width: 80%;
+    margin-bottom: 15px;
+}
+.trade .tourism_slider .recent-post-slider.design-2 .post-content-left .readmorebtn {
+    background: #fff;
+    color: #e43e8b;
+    font-family: atrament-web, sans-serif;
+    padding-right: 40px;
+}
+.trade .trade_news .news_section .para a {
+    color: #000 !important;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px !important;
+    text-decoration: none !important;
+}
+.trade_sector .readmore-button1 {
+    display: none !important;
+}
+.trade .trade_help .trade_help_item .top_box p {
+    text-align: left !important;
+}
+.trade .trade_faq .faq_text .wpb_wrapper {
+    /*width:60% !important;*/
+}
+.trade .trade_faq .faq_text p {
+    /*font-size: 1.3rem !important;    line-height: 1.5rem !important;    font-weight: 300;*/
+    
+    font-family: 'Open Sans', sans-serif !important;
+    text-align: center;
+    font-size: 24px;
+    line-height: 1.2;
+}
+@media only screen and (max-width: 769px) {
+    .trade .trade_banner_box {
+        padding: 0 10px !important;
+    }
+    .trade .trade_expotor .page-top-heading .heading_trade {
+        /*padding-left:38px !important;*/
+    }
+    .exportors_slider .slick-slider {
+        height: 500px !important;
+    }
+    .slick-list {
+        height: inherit !important;
+    }
+    .trade .trade_policies .readmore-button p {
+        text-align: left !important;
+    }
+    .trade .trade_policies .heading_trade,
+    .trade .page-top-heading .heading_trade,
+    .trade .trade_tourism .tourism_heading {
+        text-align: center;
+    }
+    .trade_expotor,
+    .trade .vc_column-inner {
+         padding: 0 !important;
+    }
+    
+    
+    .trade .exportors_slider .post-list .post-list-content {
+        position: relative !important;
+    }
+    .trade .exportors_slider .post-list .post-list-content .wpcolumns {
+        width: 100% !important;
+        padding: 0 !important;
+        position: absolute !important;
+    }
+    .trade .exportors_slider .post-list .post-list-content .wp-medium-5.wpcolumns {
+        top: 0 !important;
+        left: 0 !important;
+        width: 100% !important;
+        height: 320px !important;
+    }
+    .trade .exportors_slider .post-list .post-list-content .wp-medium-7.wpcolumns {
+        top: 360px !important;
+        left: 0 !important;
+        width: 70% !important;
+        text-align: center !important;
+        margin: 0 15% !important;
+    }
+    .trade .trade_tourism .tourism_heading,
+    .trade .trade_tourism .tourism_text {
+        width: 100% !important;
+        margin: 0 !important;
+    }
+    .trade .exportors_slider .recent-post-slider button.slick-prev,
+    .trade .exportors_slider .recent-post-slider button.slick-prev:hover,
+    .trade .exportors_slider .recent-post-slider button.slick-prev:focus {
+        left: 15px !important;
+        bottom: 50px !important;
+        margin-bottom: 0 !important;
+        margin-top: auto !important;
+    }
+    .trade .tourism_slider {
+        margin-top: 30px !important;
+    }
+    .trade .exportors_slider .post-list .post-list-content .wp-sub-content {
+        font-size: 1rem !important;
+        text-align: left !important;
+        line-height: 1.2rem !important;
+    }
+    .trade .exportors_slider .recent-post-slider button.slick-next,
+    .trade .exportors_slider .recent-post-slider button.slick-next:hover,
+    .trade .exportors_slider .recent-post-slider button.slick-next:focus {
+        right: 15px !important;
+        bottom: 50px !important;
+        margin-bottom: 0 !important;
+        margin-top: auto !important;
+    }
+    .trade .trade_tourism .tourism_heading,
+    .trade .trade_tourism .tourism_text {
+        padding: 0 0px !important;
+    }
+    .trade_sector {
+        padding: 0 !important;
+        width: 100% !important;
+        overflow: visible !important;
+        max-width: 100% !important;
+        margin: 0 !important;
+        left: 0 !important;
+        padding-bottom: 40px !important;
+    }
+    .trade_sector .vc_grid-item.vc_clearfix.vc_col-sm-4.vc_visible-item {
+        width: 33.33% !important;
+        margin: 0 !important;
+        display: inline-block;
+        font-size: 0;
+        padding: 5px;
+    }
+    .trade_sector .readmore-button {
+        display: none !important;
+    }
+    .trade_sector .readmore-button.readmore-button1 {
+        text-align: center !important;
+        position: absolute !important;
+        display: block !important;
+        left: 44% !important;
+    }
+    .news_section {
+        /*padding:50px 0;*/
+    }
+    .trade_news {
+        padding: 0 !important;
+    }
+    .trade_faq {
+        padding: 20px !important;
+    }
+    .trade .trade_faq .heading_india,
+    .trade .trade_faq .faq_text {
+        display: inline-block !important;
+        text-align: center !important;
+        width: 100% !important;
+        vertical-align: middle !important;
+        padding: 0 20px !important;
+        margin: 0 !important;
+    }
+    .trade .trade_faq .faq_text {
+        text-align: left !important;
+    }
+    .trade .trade_policies .heading_trade,
+    .trade .page-top-heading .heading_trade,
+    .trade .heading_india,
+    .trade .trade_sector .heading_trade,
+    .trade .trade_news .heading_trade_half,
+    .trade .trade_tourism .tourism_heading {
+        font-size: 12vw !important;
+    }
+    .trade .heading_trade,
+    .trade .subtitle,
+    .trade .trade_policies .policies_text,
+    .trade .trade_sector .sectors_text,
+    .trade .trade_policies .readmore-button,
+    .trade .trade_tourism .tourism_text,
+    .trade .trade_tourism .heading_trade_half {
+        padding: 0 0 25px !important;
+    }
+    .heading_trade_half {
+        padding: 0 0 25px !important;
+    }
+    .trade .tourism_slider .recent-post-slider.design-2 .post-slides .post-content-left {
+        padding: 15% 0 0 0px !important;
+    }
+    .trade .tourism_slider .recent-post-slider.design-2 .post-slides .post-content-left .recentpost-inner-content .wp-post-title a {
+        font-size: 2rem !important;
+        line-height: 2.1rem !important;
+    }
+    .trade .tourism_slider .recent-post-slider.design-2 .post-slides .post-content-left .recentpost-inner-content .wp-sub-content {
+        font-size: 1.2rem !important;
+        line-height: 1.3rem !important;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .recent-post-slider.design-1 .wp-post-content,
+    .recent-post-slider.design-2 .wp-post-content,
+    .recent-post-slider.design-3 .wp-post-content {
+        display: block !important;
+    }
+}
+.event .page-heading {
+    height: 380px !important;
+    margin-top: -50px !important;
+    font-family: atrament-web, sans-serif !important;
+}
+.event .page-heading .Page-heading {
+    font-family: atrament-web, sans-serif !important;
+    margin-bottom: 50px !important;
+}
+.event .section-2 .go-global h4 {
+    font-size: 3.5rem !important;
+    color: #000 !important;
+    margin-bottom: 20px !important;
+    font-weight: 600 !important;
+    font-family: atrament-web, sans-serif !important;
+    line-height: 3rem !important;
+}
+.event .section-2 .go-global h5 {
+    font-family: 'Open Sans';
+    font-size: 1.2rem !important;
+    color: #000 !important;
+    line-height: 1.5rem !important;
+}
+.event .section-2 .go-global a {
+    margin-top: 10px !important;
+    padding: 8px 20px !important;
+    font-size: 14px !important;
+    background-color: #fff !important;
+    display: inline-block !important;
+    color: #585858 !important;
+    margin-bottom: 15px !important;
+    font-size: 16px !important;
+    font-family: 'Open Sans';
+    min-width: 140px !important;
+    border: none !important;
+}
+.event .section-2 .start-up-image {
+    height: 100% !important;
+    position: absolute !important;
+    width: 100% !important;
+}
+.event .section-2 .start-up-image img,
+.event .section-2 .start-up-image .wpb_wrapper.vc_figure,
+.event .section-2 .start-up-image .vc_single_image-wrapper.vc_box_border_grey {
+    width: 100% !important;
+    height: 100% !important;
+}
+.event .section-2 .startup-hub p {
+    text-transform: uppercase !important;
+    color: #515151 !important;
+    background: rgba(255, 255, 255, 0.7) !important;
+    position: absolute !important;
+    bottom: 0px !important;
+    right: 10% !important;
+    font-size: 4vw !important;
+    line-height: 2 !important;
+    padding: 0px 30px !important;
+}
+.event .section-3 .more-button button {
+    margin-top: 10px !important;
+    padding: 8px 20px !important;
+    font-size: 14px !important;
+    background-color: #f4872c !important;
+    font-family: 'Open Sans';
+    display: inline-block !important;
+    color: #000 !important;
+    margin-bottom: 15px !important;
+    font-weight: 600;
+    font-size: 16px !important;
+    min-width: 140px !important;
+    border: none !important;
+}
+.event .section-3 .event-list .event-item {
+    margin: 25px 0 !important;
+}
+.event .section-3 .event-list .event-item .event-date {
+    padding: 0px 30px 15px 15px !important;
+    width: 15% !important;
+}
+.event .section-3 .event-list .event-item .event-date,
+.event .section-3 .event-list .event-item .event-content {
+    display: inline-block !important;
+    vertical-align: top !important;
+}
+.event .section-3 .event-list .event-item .event-content {
+    width: 80% !important;
+    border-left: 5px solid #f05b21 !important;
+    padding-left: 20px;
+}
+.event .section-3 .event-list .event-item .event-day {
+    color: #f48221 !important;
+    font-size: 2rem !important;
+    font-weight: 400 !important;
+    line-height: 1.5rem;
+}
+.event .section-3 .event-list .event-item .event-year {
+    color: #000 !important;
+    font-size: 2rem !important;
+    font-weight: 300 !important;
+}
+.event .section-3 .event-list .event-item .event-content .event-title {
+    color: #000 !important;
+    font-size: 1.8rem !important;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    margin: 0 !important;
+    line-height: 2.2rem;
+}
+.event .section-3 .event-list .event-item .event-content .event-title a {
+    color: #000 !important;
+    font-size: 2rem !important;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    line-height: 1.4rem;
+    margin: 0 !important;
+}
+.event .section-3 .event-list .event-item .event-content .event-discription ul {
+    margin: 0 !important;
+}
+.event .section-3 .event-list .event-item .event-content .event-discription p,
+.event .section-3 .event-list .event-item .event-content .event-discription a,
+.event .section-3 .event-list .event-item .event-content .event-discription ul li a,
+.event .section-3 .event-list .event-item .event-content .event-discription ul li {
+    text-decoration: none !important;
+    color: #000 !important;
+    margin: 0 !important;
+    padding: 12px 0;
+    font-weight: 600;
+    font-family: 'Open Sans';
+    line-height: 1.6rem;
+    font-size: 1.2rem !important;
+    list-style: none !important;
+}
+.event .section-3 .event-list .event-item .event-content .event-discription .event-cat {
+    background: #fff !important;
+    border: 1px solid #797979 !important;
+    color: #797979 !important;
+    display: inline-block !important;
+    padding: 10px !important;
+    line-height: 12px !important;
+    font-weight: 700;
+}
+.event .section-3 .event-list .event-item .event-content .event-discription ul>li:before,
+.event .section-3 .event-list .event-item .event-content .event-discription ul>li:before {
+    display: none !important;
+}
+@media only screen and (max-width: 500px) {
+    .event .section-3 .event-list .event-item .event-date {
+        border-right: 0px solid #f05b21 !important;
+        border-bottom: 3px solid #f05b21 !important;
+        width: 100% !important;
+    }
+    .event .section-3 .event-list .event-item .event-content {
+        width: 100% !important;
+        border-left: 0!important;
+        padding: 15px;
+    }
+    .archive .entry-content {
+        padding: 0 15px;
+    }
+    .event .section-3 .event-list .event-item .event-day,
+    .event .section-3 .event-list .event-item .event-year {
+        font-family: atrament-web;
+    }
+}
+.trade .btnBox a.customBtn:hover {
+    background-color: #585858;
+  
+}
+.table_box > div > p {
+    width: 25%;
+    float: left;
+    padding: 25px;
+    font-size: 24px;
+    color: #000;
+    box-shadow: 0px 0px 0px 2px #cf128c inset;
+    border: 10px solid transparent;
+}
+@media only screen and (max-width: 1024px) {
+    .table_box > div > p {
+        width: 50%;
+        min-height: 200px;
+    }
+    .archive .entry-content {
+        padding: 0 15px;
+    }
+    .event .section-3 .event-list .event-item .event-date {
+        width: 25% !important;
+    }
+    .event .section-3 .event-list .event-item .event-content {
+        width: 70% !important;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .table_box > div > p {
+        width: 100%;
+    }
+    .event .section-3 .event-list .event-item .event-date {
+        width: 100% !important;
+    }
+    .event .section-2 .go-global h4 {
+        font-size: 8vw;
+    }
+    .event .section-2 .go-global h5 {
+        line-height: 1rem !important;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .heading_trade_half {
+        text-align: center !important;
+    }
+    .recent-post-slider.design-1 .post-image-bg img,
+    .recent-post-slider.design-2 .post-image-bg img,
+    .recent-post-slider.design-3 .post-image-bg img {
+        max-width: 100%;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {}
+/*end*/
+
+@media only screen and (min-width: 768px) {
+    .trade .tourism_slider .recent-post-slider.design-2 .post-image-bg {
+        min-height: 750px !important;
+    }
+}
+.mB50{
+    margin-bottom: 50px!important;
+}
+.pB10{
+    padding-bottom: 10px!important;
+}
